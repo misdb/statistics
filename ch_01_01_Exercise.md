@@ -1,7 +1,6 @@
 ### 1-1. Exercises
 
 
-
 1. 모집단(population)에 대하여 설명하라.
 
 2. 표본(sample)에 대하여 설명하라
