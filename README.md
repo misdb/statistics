@@ -1,15 +1,18 @@
-## Statistics
+# Statistics
 
-### 1. Statistics for Business
+## 1. Statistics for Business
+
 Statistics using R
 
-### 2. Course Introduction
+## 2. Course Introduction
+
 This is the book of statistics for Business students.
 
-### 3. Course Schedule
-Week 1
-Week 2
-Week 3
+## 3. Course Schedule
 
-### 4. Evaluation
+Week 1 Week 2 Week 3
+
+## 4. Evaluation
+
 Mid 40%, Final 40%, Class 20%
+
