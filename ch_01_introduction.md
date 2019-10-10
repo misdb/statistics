@@ -20,5 +20,11 @@
 
 수량 데이터
 
+
+
+![Grand Picture of Statistics](.gitbook/assets/20191010_130523%20%281%29.png)
+
+
+
 ## 1.2 Overview
 
