@@ -162,7 +162,7 @@ sd(x)
 
 **Ex 17.** \(-1, 0, 1\) 표본은 평균이 0, 표준편차가 1이다. 평균이 0이고 표준편차가 1보다 더 작은큰 값을 갖는 표본 크기 3인 데이터 세트를 작성하라.
 
-Ex 18. 다음과 같은 데이터 세트가 있다. 이 데이터 세트를 Data Set 1이라고 하자.
+**Ex 18.** 다음과 같은 데이터 세트가 있다. 이 데이터 세트를 Data Set 1이라고 하자.
 
 ```text
 5 -2 6 14 -3 0 1 4 3 3 5
@@ -175,6 +175,95 @@ b. 이 Data Set 1의 각 수치에 3을 더하여 Data Set II를 작성하라. �
 c. Data Set I의 각 수치에서 6을 뺀 값으로 구성된 Data Set III를 작성하라. 그리고 이 Data Set III의 표본 표준편차를 구하라.
 
 d. \(a\), \(b\), \(c\)의 결과를 비교하고 일반적인 원리로 제시할 수 있는 패턴을 설명하라. 
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+ds1 <- c(5, -2, 6, 14, -3, 0, 1, 4, 3, 3, 5)
+
+# a
+sd(ds1)
+
+# b
+ds2 <- ds1 + 3; ds2
+sd(ds2)
+
+# c
+ds3 <- ds2 - 6; ds3
+sd(ds3)
+```
+{% endtab %}
+
+{% tab title="a" %}
+```text
+> # a
+> sd(ds1)
+[1] 4.60632
+```
+{% endtab %}
+
+{% tab title="b" %}
+```text
+> # b
+> ds2 <- ds1 + 3; ds2
+ [1]  8  1  9 17  0  3  4  7  6  6  8
+> sd(ds2)
+[1] 4.60632
+```
+{% endtab %}
+
+{% tab title="c" %}
+```text
+> # c
+> ds3 <- ds2 - 6; ds3
+ [1]  2 -5  3 11 -6 -3 -2  1  0  0  2
+> sd(ds3)
+[1] 4.60632
+```
+{% endtab %}
+
+{% tab title="d" %}
+\(a\), \(b\), \(c\) have the same standard deviation. 
+
+=&gt; sd\(x\) = sd\(x + a\) = sd\(x - a\)
+{% endtab %}
+{% endtabs %}
+
+**Ex 19.** 1,000 명의 학생들의 SAT와 GPS 성적을 수록하고 있는 Data Set 1이 의 사이트에 수록되어 있다.
+
+ [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data7A.xls) 
+
+a. SAT 성적의 범위와 표본 표준편차를 구하라.
+
+b. GPS 성적의 범위와 표본 표준편차를 구하라.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+
+{% endtab %}
+
+{% tab title="a" %}
+
+{% endtab %}
+
+{% tab title="b" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+
+
+
+
+
 
 
 
