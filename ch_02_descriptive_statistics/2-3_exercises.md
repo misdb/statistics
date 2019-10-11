@@ -44,5 +44,23 @@ f   1 1 2 1
 
 ### 2\) Applications Exercies
 
+**Ex 7.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
+
+```text
+122 162 123 145 148 120 147 160 150 152
+```
+
+**Ex 8.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
+
+```text
+142 152 128 145 148 129 147 155 150 152
+```
+
+
+
+### 3\) Additional Exercises
+
+58 페이지
+
 
 
