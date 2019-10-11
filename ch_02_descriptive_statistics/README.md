@@ -946,8 +946,10 @@ z <- (x - mean) / std ; z
 {% endtab %}
 {% endtabs %}
 
-1. 데이터의 relative frequency histogram이 종모양인지 언급이 없기 때문에 Empirical Rule이 적용되지 않는다. 따라서 1.은 사실이 아닐 수 있다.
-2. chebychev's theorem이 적용되어 사실이어야 한다.
-3. 189/251 = 75.3% 그러므로 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장은 사실이다.
-4. 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장도 사실이다. 
-5. 
+1. 데이터의 relative frequency histogram이 종모양인지 언급이 없기 때문에 Empirical Rule이 적용되지 않는다. 따라서 \(1\)번 문장은 맞지 않을 수 있다.
+2. chebychev's theorem이 적용되어 이 문장은 맞다.
+3. 189/251 = 75.3% 그러므로 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장도 맞는다..
+4. 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장도 맞는다.
+5. \(4\)번 문장은 사실이다. 그러나 \(5\)번 문장은 relative frequency histogram이 대칭적\(symmetric\)인지 여부를 알 수 없기 때문에 이 문장이 맞다고 말할 수 없다. 즉,  relative frequency histogram 이 대칭적이라면 이 문장은 맞는다.
+6. 이 문장은 \(4\)번 문장과 같다. 따라서 이 문장도 맞는다.
+
