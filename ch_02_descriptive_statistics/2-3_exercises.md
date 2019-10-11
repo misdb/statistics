@@ -250,7 +250,15 @@ library(readxl)
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
 
+# a.
+range_SAT <- max(dataset1[[1]]) - min(dataset1[[1]])
+range_SAT
+sd(dataset1[[1]])
 
+# b.
+range_GPA <- max(dataset1[[2]]) - min(dataset1[[2]])
+range_GPA
+sd(dataset1[[2]])
 ```
 {% endtab %}
 
@@ -265,15 +273,35 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
 {% endtab %}
 
 {% tab title="a" %}
-
+```text
+> # a.
+> range_SAT <- max(dataset1[[1]]) - min(dataset1[[1]])
+> range_SAT
+[1] 1350
+> sd(dataset1[[1]])
+[1] 212.5455
+```
 {% endtab %}
 
 {% tab title="b" %}
-
+```text
+> # b.
+> range_GPA <- max(dataset1[[2]]) - min(dataset1[[2]])
+> range_GPA
+[1] 4
+> sd(dataset1[[2]])
+[1] 0.7407454
+```
 {% endtab %}
 {% endtabs %}
 
+**Ex 20**. Data Set 1을 이용하여 다음을 구하라.
 
+a. 이 데이터 세트가 모든 고등학생들의  데이터로 생각하자. 모집단의 범위와 표준편차$$(\sigma)$$를 계산하라.
+
+b. 이 모집지단에서 무작위 표본으로 제일 처음의 25개 데이터를 선택하였다. 이  표본의 범위와 표준편차$$(s)$$를 구하라. 이 값들을 \(a\)에서 구한 결과와 비교하라.
+
+c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선택하였다. 이  표본의 범위와 표준편차$$(s)$$를 구하라. 이 값들을 \(a\)에서 구한 결과와 비교하라.
 
 
 
