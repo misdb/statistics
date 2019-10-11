@@ -233,7 +233,7 @@ sd(ds3)
 
 **Ex 19.** 1,000 명의 학생들의 SAT와 GPS 성적을 수록하고 있는 Data Set 1이 의 사이트에 수록되어 있다.
 
- [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data7A.xls) 
+{% embed url="http://www.flatworldknowledge.com/sites/all/files/data1.xls" caption="http://www.flatworldknowledge.com/sites/all/files/data1.xls " %}
 
 a. SAT 성적의 범위와 표본 표준편차를 구하라.
 
@@ -250,15 +250,23 @@ library(readxl)
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
 
+# Data Set 1
+sat <- dataset1[[1]]
+gpa <- dataset1[[2]]
+
+# list of Data Set
+head(sat)
+head(gpa)
+
 # a.
-range_SAT <- max(dataset1[[1]]) - min(dataset1[[1]])
+range_SAT <- max(sat) - min(sat)
 range_SAT
-sd(dataset1[[1]])
+sd(sat)
 
 # b.
-range_GPA <- max(dataset1[[2]]) - min(dataset1[[2]])
+range_GPA <- max(gpa) - min(gpa)
 range_GPA
-sd(dataset1[[2]])
+sd(gpa)
 ```
 {% endtab %}
 
@@ -269,16 +277,21 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
  $ SAT Score  : num  1300 1520 1580 1430 1610 1230 1520 1320 1240 1480 ...
  $ College GPA: num  3.66 2.92 2.66 2.27 2.35 2.02 2.94 1.76 2.35 3.16 ...
 >
+> # list of Data Set
+> head(sat)
+[1] 1300 1520 1580 1430 1610 1230
+> head(gpa)
+[1] 3.66 2.92 2.66 2.27 2.35 2.02
 ```
 {% endtab %}
 
 {% tab title="a" %}
 ```text
 > # a.
-> range_SAT <- max(dataset1[[1]]) - min(dataset1[[1]])
+> range_SAT <- max(sat) - min(sat)
 > range_SAT
 [1] 1350
-> sd(dataset1[[1]])
+> sd(sat)
 [1] 212.5455
 ```
 {% endtab %}
@@ -286,16 +299,16 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
 {% tab title="b" %}
 ```text
 > # b.
-> range_GPA <- max(dataset1[[2]]) - min(dataset1[[2]])
+> range_GPA <- max(gpa) - min(gpa)
 > range_GPA
 [1] 4
-> sd(dataset1[[2]])
+> sd(gpa)
 [1] 0.7407454
 ```
 {% endtab %}
 {% endtabs %}
 
-**Ex 20**. Data Set 1을 이용하여 다음을 구하라.
+**Ex 20**. Data Set 1의 SAT성적을 이용하여 다음을 구하라.
 
 a. 이 데이터 세트가 모든 고등학생들의  데이터로 생각하자. 모집단의 범위와 표준편차$$(\sigma)$$를 계산하라.
 
@@ -303,15 +316,302 @@ b. 이 모집지단에서 무작위 표본으로 제일 처음의 25개 데이�
 
 c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선택하였다. 이  표본의 범위와 표준편차$$(s)$$를 구하라. 이 값들을 \(a\)에서 구한 결과와 비교하라.
 
+**\[Solution\]**
 
+{% tabs %}
+{% tab title="R Code" %}
+```text
+dataset1 <- read_excel("data1.xls")
+str(dataset1)
 
+# Population Data Set
+sat <- dataset1[[1]]; head(sat)
 
+# a.
+range_SAT <- max(sat) - min(sat) ; range_SAT
+sd(sat)
 
+# Sample Data Set : First 25 Observations.
+sat <- dataset1[[1]][1:25]; sat
 
+# b.
+range_SAT <- max(sat) - min(sat) ; range_SAT
+sd(sat)
 
+# Sample Data Set : First 25 Observations.
+sat <- dataset1[[1]][26:50]; sat
 
+# c.
+range_SAT <- max(sat) - min(sat) ; range_SAT
+sd(sat)
+```
+{% endtab %}
 
+{% tab title="a" %}
+```text
+> # Population Data Set
+> sat <- dataset1[[1]]; head(sat)
+[1] 1300 1520 1580 1430 1610 1230
+> 
+> # a.
+> range_SAT <- max(sat) - min(sat) ; range_SAT
+[1] 1350
+> sd(sat)
+[1] 212.5455
+```
+{% endtab %}
 
+{% tab title="b" %}
+```text
+> # Sample Data Set : First 25 Observations.
+> sat <- dataset1[[1]][1:25]; sat
+ [1] 1300 1520 1580 1430 1610 1230 1520 1320 1240 1480 1780 1870 1140 1580 1520 1510 1490 1760 1430 1630 1960 1330
+[23] 1520 1430 1390
+> 
+> # b.
+> range_SAT <- max(sat) - min(sat) ; range_SAT
+[1] 820
+> sd(sat)
+[1] 197.5373
+```
+{% endtab %}
+
+{% tab title="c" %}
+```text
+> # Sample Data Set : Next 25 Observations.
+> sat <- dataset1[[1]][26:50]; sat
+ [1] 1700 1320 1540 1510 1120 1690 1870 1450 1430 1850 1510 1510 1700 1330 1820 1360 1820 1670 1690 1330 1520 1180
+[23] 1700 1430 1330
+> 
+> # c.
+> range_SAT <- max(sat) - min(sat) ; range_SAT
+[1] 750
+> sd(sat)
+[1] 209.6052
+```
+{% endtab %}
+{% endtabs %}
+
+**Ex 21**. Data Set 1의 GPA성적을 이용하여 다음을 구하라.
+
+a. 이 데이터 세트가 모든 고등학생들의  데이터로 생각하자. 모집단의 범위와 표준편차$$(\sigma)$$를 계산하라.
+
+b. 이 모집지단에서 무작위 표본으로 제일 처음의 25개 데이터를 선택하였다. 이  표본의 범위와 표준편차$$(s)$$를 구하라. 이 값들을 \(a\)에서 구한 결과와 비교하라.
+
+c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선택하였다. 이  표본의 범위와 표준편차$$(s)$$를 구하라. 이 값들을 \(a\)에서 구한 결과와 비교하라.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+dataset1 <- read_excel("data1.xls")
+str(dataset1)
+
+# Population Data Set
+gpa <- dataset1[[2]]; head(gpa)
+
+# a.
+range_GPA <- max(gpa) - min(gpa) ; range_GPA
+sd(gpa)
+
+# Sample Data Set : First 25 Observations.
+gpa <- dataset1[[2]][1:25]; gpa
+
+# b.
+range_GPA <- max(gpa) - min(gpa) ; range_GPA
+sd(gpa)
+
+# Sample Data Set : Next 25 Observations.
+gpa <- dataset1[[2]][26:50]; gpa
+
+# c.
+range_GPA <- max(gpa) - min(gpa) ; range_GPA
+sd(gpa)
+```
+{% endtab %}
+
+{% tab title="a" %}
+```text
+> # Population Data Set
+> gpa <- dataset1[[2]]; head(gpa)
+[1] 3.66 2.92 2.66 2.27 2.35 2.02
+> 
+> # a.
+> range_GPA <- max(gpa) - min(gpa) ; range_GPA
+[1] 4
+> sd(gpa)
+[1] 0.7407454
+```
+{% endtab %}
+
+{% tab title="b" %}
+```text
+> # Sample Data Set : First 25 Observations.
+> gpa <- dataset1[[2]][1:25]; gpa
+ [1] 3.66 2.92 2.66 2.27 2.35 2.02 2.94 1.76 2.35 3.16 1.69 3.38 0.62 2.25 3.17 2.72 2.24 1.78 2.99 3.13 3.65 3.41
+[23] 0.73 1.87 2.04
+> 
+> # b.
+> range_GPA <- max(gpa) - min(gpa) ; range_GPA
+[1] 3.04
+> sd(gpa)
+[1] 0.8080454
+```
+{% endtab %}
+
+{% tab title="c" %}
+```text
+> # Sample Data Set : Next 25 Observations.
+> gpa <- dataset1[[2]][26:50]; gpa
+ [1] 2.22 1.80 3.19 1.80 2.25 3.25 3.31 2.05 1.41 2.94 2.52 2.34 2.63 1.35 3.65 2.60 2.61 2.18 2.67 1.16 3.11 1.65
+[23] 2.05 3.00 2.28
+> 
+> # c.
+> range_GPA <- max(gpa) - min(gpa) ; range_GPA
+[1] 2.49
+> sd(gpa)
+[1] 0.6578432
+> sd(gpa)
+[1] 0.6578432
+```
+{% endtab %}
+{% endtabs %}
+
+**Ex 22.** 다음의 데이터 세트는 특정 실험에 사용된 140마리 실험용 쥐의 생존 기간 데이터를 수록하고 있다. 
+
+{% embed url="http://www.flatworldknowledge.com/sites/all/files/data7.xls" caption="http://www.flatworldknowledge.com/sites/all/files/data7.xls " %}
+
+a. 성별에 상관없이 모든 쥐들의 생존기간의 범위와 표준편차를 구하라.
+
+b. 수컷\(gender = "M"\) 쥐들의 범위와 표준편차를 구하라.
+
+c. 암컷\(gender = "F"\) 쥐들의 범위와 표준편차를 구하라.
+
+ **\[Solution A\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+dataset <- read_excel("data7.xls")
+str(dataset)
+
+dataset$Gender <- as.factor(dataset$Gender)
+
+gender <- dataset[[2]]   ; head(gender)
+surv_day <- dataset[[3]] ; head(surv_day)
+
+# a.
+mean(surv_day)
+
+# b. c.
+aggregate(surv_day~gender, FUN=mean)
+```
+{% endtab %}
+
+{% tab title="Data Set" %}
+```text
+> str(dataset)
+Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   140 obs. of  3 variables:
+ $ ID                  : num  1 2 3 4 5 6 7 8 9 10 ...
+ $ Gender              : Factor w/ 2 levels "F","M": 1 2 1 2 1 2 2 1 2 1 ...
+ $ Survival Time (days): num  554 680 484 706 396 737 664 362 719 512 ...
+> 
+> dataset$Gender <- as.factor(dataset$Gender)
+> 
+> gender <- dataset[[2]]   ; head(gender)
+[1] F M F M F M
+Levels: F M
+> surv_day <- dataset[[3]] ; head(surv_day)
+[1] 554 680 484 706 396 737
+
+```
+{% endtab %}
+
+{% tab title="a" %}
+```text
+> # a.
+> mean(surv_day)
+[1] 553.4286
+```
+{% endtab %}
+
+{% tab title="b. c." %}
+```text
+> # b. c.
+> aggregate(surv_day~gender, FUN=mean)
+  gender surv_day
+1      F 455.8933
+2      M 665.9692
+```
+{% endtab %}
+{% endtabs %}
+
+**\[Solution B\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+dataset <- read_excel("data7.xls")
+str(dataset)
+
+dataset$Gender <- as.factor(dataset$Gender)
+
+gender <- dataset[[2]]   ; head(gender)
+surv_day <- dataset[[3]] ; head(surv_day)
+
+# a.
+mean(surv_day)
+
+# or b. c. 
+data <- data.frame(gender, surv_day); head(data)
+
+mean_surv_M <- mean(data$surv_day[data$gender == "M"]) ; mean_surv_M
+mean_surv_F <- mean(data$surv_day[data$gender == "F"]) ; mean_surv_F
+```
+{% endtab %}
+
+{% tab title="a" %}
+```text
+> str(dataset)
+Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   140 obs. of  3 variables:
+ $ ID                  : num  1 2 3 4 5 6 7 8 9 10 ...
+ $ Gender              : Factor w/ 2 levels "F","M": 1 2 1 2 1 2 2 1 2 1 ...
+ $ Survival Time (days): num  554 680 484 706 396 737 664 362 719 512 ...
+> 
+> dataset$Gender <- as.factor(dataset$Gender)
+> 
+> gender <- dataset[[2]]   ; head(gender)
+[1] F M F M F M
+Levels: F M
+> surv_day <- dataset[[3]] ; head(surv_day)
+[1] 554 680 484 706 396 737
+
+> # a.
+> mean(surv_day)
+[1] 553.4286
+```
+{% endtab %}
+
+{% tab title="b. c." %}
+```text
+> # or b. c. 
+> data <- data.frame(gender, surv_day); head(data)
+  gender surv_day
+1      F      554
+2      M      680
+3      F      484
+4      M      706
+5      F      396
+6      M      737
+> 
+> mean_surv_M <- mean(data$surv_day[data$gender == "M"]) ; mean_surv_M
+[1] 665.9692
+> mean_surv_F <- mean(data$surv_day[data$gender == "F"]) ; mean_surv_F
+[1] 455.8933
+```
+{% endtab %}
+{% endtabs %}
 
 
 
