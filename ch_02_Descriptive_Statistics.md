@@ -37,7 +37,8 @@ stem(x, scale = 1, width = 80, atom = 1e-08)
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 score <- c(86, 80, 25, 77, 73,  76, 100, 90, 69, 93,
@@ -46,7 +47,9 @@ score <- c(86, 80, 25, 77, 73,  76, 100, 90, 69, 93,
 stem(score)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 ##   The decimal point is 1 digit(s) to the right of the |
@@ -63,6 +66,9 @@ stem(score)
 ## 
 ```
 
+{% endtab %}
+{% endtabs %}
+
 10의 자리 숫자가 stem이 되고, 1의 자리 숫자가 leaf가 됨을 알 수 있다.
 
 
@@ -71,13 +77,16 @@ stem(score)
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 stem(score, scale = 0.5)    # stem의 갯수를 50%로 줄임 -> 2, 4, 6, 8, 10 등
 ```
 
-**result :**
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 ##   The decimal point is 1 digit(s) to the right of the |
@@ -90,7 +99,8 @@ stem(score, scale = 0.5)    # stem의 갯수를 50%로 줄임 -> 2, 4, 6, 8, 10 
 ## 
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 #### 2) Frequency Histograms
 
@@ -120,7 +130,8 @@ hist(x, main = paste("Histogram of ", xname),
 
 [Solution]
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 require(lattice)
@@ -132,15 +143,21 @@ histogram(score, type = "count",
           breaks = seq(5, 105, by=10)) :
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ![1570687481484](C:/Users/Dae%20Ho%20Kim/OneDrive%20-%20%EB%AA%A9%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/Kim_DaeHo(insoo_notebook)/Lectures/Statistics/images/1570686636268.png)
+
+{% endtab %}
+{% endtabs %}
 
 #### 3) Relative Frequency Histogram
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 histogram(score, type = "percent",
@@ -149,9 +166,14 @@ histogram(score, type = "percent",
           breaks = seq(5, 105, by=10))
 ```
 
-result :
+{% endtab %}
+
+{% tab title="Result" %}
 
 ![1570687573652](C:/Users/Dae%20Ho%20Kim/OneDrive%20-%20%EB%AA%A9%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/Kim_DaeHo(insoo_notebook)/Lectures/Statistics/images/1570687573652.png)
+
+{% endtab %}
+{% endtabs %}
 
 y 축의 값이 갯수(count)가 아닌 백분율(percent)로 출력된다.
 
@@ -185,7 +207,8 @@ sample size가 커짐에 따라 전체 모양은 좌우 대칭의 종 모양이 
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c(1, 3, 4)
@@ -194,7 +217,9 @@ sum(x^2)
 sum((x-1)^2)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```{}
 > sum(x)
@@ -205,7 +230,8 @@ sum((x-1)^2)
 ## [1] 13
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Example 2)** 다음의 표본 데이터의 평균을 구하라.
 
@@ -215,21 +241,25 @@ sum((x-1)^2)
 
 **[Solution]**
 
-**R code :** 
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c( 2, -1, 0, 2)
 mean(x)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > mean(x)
 ## [1] 0.75
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Example 3)** 무작위로 선발한 10명의 학생의 평균 평점은 다음과 같다. 표본의 평균을 구하라.
 
@@ -239,21 +269,25 @@ mean(x)
 
 **[풀이]**
 
-**R code :** 
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
 mean(x)
 ```
 
-**result :**
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > mean(x)
 ## [1] 2.645
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Example 4)** 가임기 년령을 넘긴 무작위로 선발된 19명의 여성의 데이터가 다음과 같다(x는 자녀의 수, f는 그 값의 빈도). 표본의 평균을 구하라. 
 
@@ -264,7 +298,8 @@ f   3   6   6   3   1
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c(0, 1, 2, 3, 4)
@@ -273,14 +308,17 @@ mean <- sum(x * f) / sum(f)
 mean
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > mean
 ## [1] 1.631579
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 #### 2) Median
 
@@ -294,37 +332,49 @@ mean
 
    **[Solution]**
 
-   **R code :**
+   {% tabs %}
+   {% tab title="R Code" %}
 
    ```
    x <- c(24.8, 22.8, 24.6, 192.4, 25.2, 18.5, 23.7)
    round(mean(x), 1)
    ```
 
-   **result :** 
+   {% endtab %}
+
+   {% tab title="Result" %}
 
    ```
    > round(mean(x), 1)
    ## [1] 47.4
    ```
 
+   {% endtab %}
+   {% endtabs %}
+
 2.  위의 계산으로 볼 때 192.4 데이터는 이상치(outlier)로 판단이 된다. 따라서 이 데이터의 중심값으로 평균값이 아닌 중앙값(median)을 구하라.
 
    **[Solution]**
 
-   **R code :**
+   {% tabs %}
+   {% tab title="R Code" %}
 
    ```
    x <- c(24.8, 22.8, 24.6, 192.4, 25.2, 18.5, 23.7)
    median(x)
    ```
 
-   **result :**
+   {% endtab %}
+
+   {% tab title="Result" %}:**
 
    ```
    > median(x)
    ## [1] 24.6
    ```
+
+   {% endtab %}
+   {% endtabs %}
 
    
 
@@ -342,19 +392,25 @@ mean
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c(-1, 0, 2, 2)
 median(x)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > median(x)
 ## [1] 1
 ```
+
+{% endtab %}
+{% endtabs %}
 
 **Note :** median of the data set is the mean of 2nd and 3rd data -> (0 + 2) / 2 = 1.
 
@@ -368,21 +424,25 @@ median(x)
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```
 x <- c(1.39, 1.76, 1.90, 2.12, 2.53, 2.71, 3.00, 3.33, 3.71, 4.00)
 median(x)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > median(x)
 ## [1] 2.62
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Example 7)** 다음 데이터 세트의 sample median을 구하라.
 
@@ -392,21 +452,25 @@ median(x)
 
 **[Solution]**
 
-R code :
+{% tabs %}
+{% tab title="R Code" %}
 
 ```
 x <- c(0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4)
 median(x)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > median(x)
 ## [1] 2
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Skewness of Relative Frequency Histogram**
 
@@ -428,7 +492,8 @@ median(x)
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```[r]
 x <- c(-1, 0, 2, 0)
@@ -436,14 +501,17 @@ y <- table(x)
 names(which.max(y))
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > names(which.max(y))
 ## [1] "0"
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 ### 2.3 Measures of Variability
 
@@ -457,7 +525,8 @@ names(which.max(y))
 
 
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 library(ggplot2)
@@ -469,11 +538,16 @@ ggplot(x, aes(x = x1)) + geom_dotplot()
 ggplot(x, aes(x = x2)) + geom_dotplot()
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ![1570695168698](C:/Users/Dae%20Ho%20Kim/OneDrive%20-%20%EB%AA%A9%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/Kim_DaeHo(insoo_notebook)/Lectures/Statistics/images/1570695168698.png)
 
 ![1570695188616](C:/Users/Dae%20Ho%20Kim/OneDrive%20-%20%EB%AA%A9%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90/Kim_DaeHo(insoo_notebook)/Lectures/Statistics/images/1570695188616.png)
+
+{% endtab %}
+{% endtabs %}
 
 참고사이트 : https://ggplot2.tidyverse.org/reference/geom_dotplot.html
 
@@ -485,7 +559,8 @@ ggplot(x, aes(x = x2)) + geom_dotplot()
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x1 <- c(40, 38, 42, 40, 39, 39, 43, 40, 39, 40)
@@ -494,7 +569,9 @@ range_x1 <- max(x1) - min(x1)
 range_x2 <- max(x2) - min(x2)
 ```
 
-**result :**
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > ( range_x1 <- max(x1) - min(x1) )
@@ -502,6 +579,9 @@ range_x2 <- max(x2) - min(x2)
 > ( range_x2 <- max(x2) - min(x2) )
 ## [1] 14
 ```
+
+{% endtab %}
+{% endtabs %}
 
 **Note :** `range( )`function of R displays the minimun value and the maxim value of the data set.
 
@@ -513,7 +593,8 @@ range_x2 <- max(x2) - min(x2)
 
 **[Solution]**
 
-**R code :**
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x2 <- c(46, 37, 40, 33, 42, 36, 40, 47, 34, 45)
@@ -521,7 +602,9 @@ var(x2)
 sd(x2)
 ```
 
-**result :**
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > var(x2)
@@ -530,7 +613,8 @@ sd(x2)
 ## [1] 4.988877
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Example 11)** 무작위로 선발한 10명의 학생의 평균 평점은 다음과 같다. sample variance와 sample standard deviation을 구하라.
 
@@ -540,7 +624,8 @@ sd(x2)
 
 **[풀이]**
 
-**R code :** 
+{% tabs %}
+{% tab title="R Code" %}
 
 ```{r}
 x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
@@ -548,7 +633,9 @@ var(x)
 sd(x)
 ```
 
-**result :** 
+{% endtab %}
+
+{% tab title="Result" %}
 
 ```
 > var(x)
@@ -557,7 +644,8 @@ sd(x)
 ## [1] 0.8674259
 ```
 
-
+{% endtab %}
+{% endtabs %}
 
 **Difference between Two Data Sets**
 
