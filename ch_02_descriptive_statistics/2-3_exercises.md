@@ -243,7 +243,25 @@ b. GPS 성적의 범위와 표본 표준편차를 구하라.
 
 {% tabs %}
 {% tab title="R Code" %}
+```text
+install.packages("readxl")
+library(readxl)
 
+dataset1 <- read_excel("data1.xls")
+str(dataset1)
+
+
+```
+{% endtab %}
+
+{% tab title="Data Set 1" %}
+```text
+> str(dataset1)                                                                                                                > str(dataset1)
+Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
+ $ SAT Score  : num  1300 1520 1580 1430 1610 1230 1520 1320 1240 1480 ...
+ $ College GPA: num  3.66 2.92 2.66 2.27 2.35 2.02 2.94 1.76 2.35 3.16 ...
+>
+```
 {% endtab %}
 
 {% tab title="a" %}

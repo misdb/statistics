@@ -4,7 +4,10 @@
 
 Statistics using R
 
-Introductory Statistics : [https://saylordotorg.github.io/text\_introductory-statistics/](https://saylordotorg.github.io/text_introductory-statistics/)
+**Introductory Statistics** : [https://saylordotorg.github.io/text\_introductory-statistics/](https://saylordotorg.github.io/text_introductory-statistics/)
+
+* Publisher: Saylor Academy
+* Year Published: 2012
 
 ## 2. Course Introduction
 
