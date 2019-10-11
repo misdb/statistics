@@ -1,8 +1,8 @@
 # Chapter 2. Descriptive Statistics
 
-## 2.1 세 가지 주요 데이터 표현 방법
+### 2.1 세 가지 주요 데이터 표현 방법
 
-### 1\) Stem and Leaf Diagrams
+#### 1\) Stem and Leaf Diagrams
 
 통계학 강의를 듣고 있는 30명 학생의 시험 성적은 다음과 같다.
 
@@ -86,7 +86,7 @@ stem(score, scale = 0.5)    # stem의 갯수를 50%로 줄임 -> 2, 4, 6, 8, 10 
 {% endtab %}
 {% endtabs %}
 
-### 2\) Frequency Histograms
+#### 2\) Frequency Histograms
 
 stem and leaf diagram은 대규모 데이터 세트에는 적합하지 않다.
 
@@ -132,7 +132,7 @@ histogram(score, type = "count",
 {% endtab %}
 {% endtabs %}
 
-### 3\) Relative Frequency Histogram
+#### 3\) Relative Frequency Histogram
 
 **\[Solution\]**
 
@@ -155,19 +155,19 @@ histogram(score, type = "percent",
 
 y 축의 값이 갯수\(count\)가 아닌 백분율\(percent\)로 출력된다.
 
-### 4\) sample size and Relative Frequency Histograms
+#### 4\) sample size and Relative Frequency Histograms
 
 sample size가 커짐에 따라 전체 모양은 좌우 대칭의 종 모양이 된다.
 
 ![](../.gitbook/assets/1570687748413.png)
 
-### 5\) A Very Fine Relative Frequency Histogram
+#### 5\) A Very Fine Relative Frequency Histogram
 
 ![](../.gitbook/assets/1570687965603.png)
 
-## 2.2 Measures of Central Location
+### 2.2 Measures of Central Location
 
-### 1\) Mean
+#### 1\) Mean
 
 **Example 1\)** 다음 데이터 세트의 sum\(x\), sum\(x^2\), sum\( \(x-1\) ^2 \)을 구하시오.
 
@@ -274,7 +274,7 @@ mean
 {% endtab %}
 {% endtabs %}
 
-### 2\) Median
+#### 2\) Median
 
 기업 직원의 연 평균 수입에 관심이 있다고 가정하자. 무작위로 선발된 직원 7명의 대략적인 연 수입은 다음과 같다\(단위 : 천 달러\)
 
@@ -321,8 +321,6 @@ median(x)
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 **\[ Median \]**
 
@@ -406,7 +404,7 @@ median(x)
 
 ![](../.gitbook/assets/1570693694162.png)
 
-### 3\) The Mode
+#### 3\) The Mode
 
 ![](../.gitbook/assets/1570693777058.png)
 
@@ -435,7 +433,7 @@ names(which.max(y))
 {% endtab %}
 {% endtabs %}
 
-## 2.3 Measures of Variability
+### 2.3 Measures of Variability
 
 다음의 두 데이터 세트가 있다. 각각의 데이터 세트를 점으로 표현한 것이 dot plot이다.
 
@@ -469,7 +467,7 @@ ggplot(x, aes(x = x2)) + geom_dotplot()
 
 참고사이트 : [https://ggplot2.tidyverse.org/reference/geom\_dotplot.html](https://ggplot2.tidyverse.org/reference/geom_dotplot.html)
 
-### 1\) The Range
+#### 1\) The Range
 
 **Example 9\)** 앞의 2개의 데이터 세트의 range를 구하라.
 
@@ -497,7 +495,7 @@ range_x2 <- max(x2) - min(x2)
 
 **Note :** `range( )`function of R displays the minimun value and the maxim value of the data set.
 
-### 2\) The Variance and The Standard Deviation
+#### 2\) The Variance and The Standard Deviation
 
 **Example 10\)** Data Set 2의 sample variance와 sample standard deviation을 구하라.
 
@@ -553,15 +551,275 @@ sd(x)
 
 ![](../.gitbook/assets/1570696359581.png)
 
-## 2.4 Relative Position of Data
+### 2.4 Relative Position of Data
 
-### 1\) Percentiles and Quantiles
+#### 1\) Percentiles and Quartiles
 
-### 2\) IQR
+* Given an observed value x in a data set, x is the Pth **percentile** of the data if the percentage of the data that are less than or equal to x is P. The number P is the percentile rank of x.
 
-## 2.5 The Empirical Rule and Chebychev's Theorem
+**Example 12\)** Example 3\)의 데이터 세트에 대하여 1.39의 percentile을 구하라. 3.33의 percentile도 구하라.
 
-### 1\) Empirical Rule
+**\[Solution\]**
 
-### 2\) Chebychev's Theorem
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
+
+length(x[x <= 1.39]) / length(x) * 100
+length(x[x <= 3.33]) / length(x) * 100
+```
+{% endtab %}
+
+{% tab title="Result 1" %}
+```text
+> length(x[x <= 1.39]) / length(x) * 100
+## [1] 10
+```
+{% endtab %}
+
+{% tab title="Result 2" %}
+```text
+> length(x[x <= 3.33]) / length(x) * 100
+## [1] 80
+```
+{% endtab %}
+{% endtabs %}
+
+\[ Data Division by Quartiles\]
+
+![](../.gitbook/assets/20191011_102919.png)
+
+For any data set: 
+
+1. The **second quartile** Q2 of the data set is its median. 
+
+2. Define two subsets: 
+
+* the lower set: all observations that are strictly less than Q2; 
+* the upper set: all observations that are strictly greater than Q2. 
+
+3. The **first quartile** Q1 of the data set is the median of the lower set.
+
+**Example 13\)** 앞의 예에 있는 데이터 세트의 quartiles를 구하라.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
+y <- quantile(x)
+y                # quartiles of x
+y[3]             # second quartile of x
+sort(x[x<y[3]])  # lower subset
+sort(x[x>y[3]])  # upper subset
+```
+{% endtab %}
+
+{% tab title="quartiles" %}
+```text
+> y
+##     0%    25%    50%    75%   100% 
+## 1.3900 1.9550 2.6200 3.2475 4.0000 
+```
+{% endtab %}
+
+{% tab title="lower subset" %}
+```text
+> sort(x[x<y[3]])  # lower subset
+## [1] 1.39 1.76 1.90 2.12 2.53
+```
+{% endtab %}
+
+{% tab title="upper subset" %}
+```text
+> sort(x[x>y[3]])  # upper subset
+## [1] 2.71 3.00 3.33 3.71 4.00
+```
+{% endtab %}
+{% endtabs %}
+
+**Example 14\)** 앞의 데이터 세트에 3.88을 추가하고 quartiles를 구하라.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33, 3.88)
+y <- quantile(x)
+y                # quartiles of x
+y[3]             # second quartile of x
+sort(x[x<y[3]])  # lower subset
+sort(x[x>y[3]])  # upper subset
+```
+{% endtab %}
+
+{% tab title="quartiles" %}
+```text
+> y
+##   0%  25%  50%  75% 100% 
+## 1.39 2.01 2.71 3.52 4.00 
+```
+{% endtab %}
+
+{% tab title="lower subset" %}
+```text
+> sort(x[x<y[3]])  # lower subset
+## [1] 1.39 1.76 1.90 2.12 2.53
+```
+{% endtab %}
+
+{% tab title="upper subset" %}
+```text
+> sort(x[x>y[3]])  # upper subset
+## [1] 3.00 3.33 3.71 3.88 4.00
+```
+{% endtab %}
+{% endtabs %}
+
+* **five-number summary** of the data set:
+
+```text
+{xmin, Q1, Q2, Q3, xmax}
+```
+
+* The five-number summary is used to construct a **box plot.**
+
+![](../.gitbook/assets/20191011_105716.png)
+
+#### 2\) IQR
+
+* **The interquartile range \(IQR\)** is the quantity : 
+
+```text
+ IQR = Q3−Q1 
+```
+
+**EXAMPLE 15\)** Example 13\)의 Box Plot을 작성하라. 그리고 IQR을를 구하라.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
+boxplot(x)
+quantile(x)
+IQR(x)
+```
+{% endtab %}
+
+{% tab title="Box Plot" %}
+![](../.gitbook/assets/image%20%282%29.png)
+{% endtab %}
+
+{% tab title="IQR" %}
+```text
+> quantile(x)
+##     0%    25%    50%    75%   100% 
+## 1.3900 1.9550 2.6200 3.2475 4.0000 
+> IQR(x)
+## [1] 1.2925
+```
+{% endtab %}
+{% endtabs %}
+
+* The **z-score** of an observation x is the number of z given by the computational formula
+
+ $$z =  (x - x^-)  /  {\delta} $$      or       $$z = (x - \mu) / \sigma$$ 
+
+according to whether the data set is a sample or is the entire population.
+
+* x-scale vs z-scale
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+**Example 16\)** 다음과 같은 10명의 학생의 평균 평점에 대하여 z-score를 구하라.
+
+```text
+1.90 3.00 2.53 3.71 2.12 1.76 2.71 1.39 4.00 3.33
+```
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x <- c(1.90, 3.00, 2.53, 3.71, 2.12, 1.76, 2.71, 1.39, 4.00, 3.33)
+z_score <- (x - mean(x)) / sd(x)
+round(z_score, 2)
+```
+{% endtab %}
+
+{% tab title="z-score" %}
+```text
+> round(z_score, 2)
+##  [1] -0.86  0.41 -0.13  1.23 -0.61 -1.02  0.07 -1.45  1.56  0.79
+```
+{% endtab %}
+{% endtabs %}
+
+**Example 17\)** 최근에 등록했던 학생들 평균 평점의 평균과 표준편차가 각각 $$\mu = 2.70$$과 $$\sigma = 0.50$$ 이었다. Antonio와 Beatrice 두 학생의 z-score는 각각 -0.62와 1.28이었다. 그들의 평균 평점은 몇 점인가?
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 2.70
+std <- 0.50
+z_score <- c(-0.62, 1.28)
+GPA <- mean + std * z_score
+```
+{% endtab %}
+
+{% tab title="z-score" %}
+```text
+> GPA <- mean + std * z_score; GPA
+## [1] 2.39 3.34
+```
+{% endtab %}
+{% endtabs %}
+
+### 2.5 The Empirical Rule and Chebychev's Theorem
+
+You probably have a good intuitive grasp of what the **average of a data set** says about that data set. In this section we begin to learn what the **standard deviation** has to tell us about the nature of the data set.
+
+#### 1\) Empirical Rule
+
+성인 남성 100명의 키\(인치 단위\)에 대한 데이터 세트가 있다.
+
+![Heights of Men](../.gitbook/assets/image.png)
+
+![Relative Frequency Histogram of Heights of Adult Men](../.gitbook/assets/image%20%283%29.png)
+
+**The Empirical Rule** 
+
+If a data set has an _approximately bell-shaped relative frequency histogram_, then \(see Figure 2.16 "The Empirical Rule"\) 
+
+1. approximately 68% of the data lie within one standard deviation of the mean, that is, in the interval with endpoints $$x^−$$ ± 1s for samples and with endpoints μ ± 1σ for populations; 
+
+2. approximately 95% of the data lie within two standard deviations of the mean, that is, in the interval with endpoints $$x^−$$ ± 2s for samples and with endpoints μ ± 2σ for populations; and 
+
+3. approximately 99.7% of the data lies within three standard deviations of the mean, that is, in the interval with endpoints $$x^-$$  ± 3s for samples and with endpoints μ ± 3σ for populations.
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+Two key points in regard to the Empirical Rule are that the data distribution must be _**approximately bell-shaped**_ and that the percentages are only _**approximately**_ true.
+
+Example 18\) 18세 남성들의 키가 평균 69.6 인치, 표준편차 1.4 인치의 종모양 분포를 한다. 
+
+a\) 이 사람들 중에 몇 퍼센트가 68.2인치와 71인치 사이에 있을까?
+
+b\) 이 사람들 중에 95% 정도가 포함되는 평균의 구간을 구하라.
+
+
+
+
+
+
+
+#### 2\) Chebychev's Theorem
 
