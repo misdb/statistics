@@ -95,3 +95,176 @@
 
    b\) 전체 주의 5%이상에 대해 주말에 재고가 바닥이 나지 않아야 한다면,
 
+
+
+## 4\) Comparative Stem and Leaf Plot
+
+다음과 같이 2개의 데이터 세트가 있다. 이 데이터 세트를 비교하는 stem and leaft diagram을 작성하라.
+
+```text
+a <- c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 7.0, 7.6, 6.8, 6.5, 7.0, 6.4, 7.9, 9.0,
+  8.2, 8.7, 7.8, 9.7, 7.4, 7.7, 9.7, 7.8, 7.7, 11.6, 11.3, 11.8, 10.7) 
+b <- c(6.1, 5.8, 7.8, 7.1, 7.2, 9.2, 6.6, 8.3, 7.0, 8.3, 7.8, 8.1, 7.4, 8.5, 
+  8.9, 9.8, 9.7, 14.1, 12.6, 11.2)
+```
+
+**\[ Method \#1 \] Diagram**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+install.packages("aplpack")
+library(aplpack)
+
+a <- c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 7.0, 7.6, 6.8, 6.5, 7.0, 6.4, 7.9, 9.0, 8.2, 8.7, 7.8, 9.7, 7.4, 7.7, 9.7, 7.8, 7.7, 11.6, 11.3, 11.8, 10.7)
+b <-c(6.1, 5.8, 7.8, 7.1, 7.2, 9.2, 6.6, 8.3, 7.0, 8.3, 7.8, 8.1, 7.4, 8.5, 8.9, 9.8, 9.7,14.1, 12.6, 11.2)
+
+stem.leaf.backback(a, b)
+stem.leaf.backback(a, b, m=1)
+```
+{% endtab %}
+
+{% tab title="Result 1" %}
+```text
+> stem.leaf.backback(a, b)
+_________________________________
+  1 | 2: represents 1.2, leaf unit: 0.1 
+            a       b        
+_________________________________
+             |  5* |             
+   1        9|  5. |8        1   
+   3       43|  6* |1        2   
+   6      885|  6. |6        3   
+  11    43200|  7* |0124     7   
+  (6)  988776|  7. |88       9   
+  10       21|  8* |133     (3)  
+   8        7|  8. |59       8   
+   7        0|  9* |2        6   
+   6       77|  9. |78       5   
+             | 10* |             
+   4        7| 10. |             
+   3        3| 11* |2        3   
+   2       86| 11. |             
+             | 12* |             
+_________________________________
+                    HI: 12.6     
+                    14.1         
+n:         27       20       
+_________________________________
+```
+{% endtab %}
+
+{% tab title="Result 2" %}
+```text
+> stem.leaf.backback(a, b, m=1)
+___________________________________________
+  1 | 2: represents 1.2, leaf unit: 0.1 
+                  a      b              
+___________________________________________
+    1             9|  5 |8             1   
+    6         88543|  6 |16            3   
+  (11)  98877643200|  7 |012488        9   
+   10           721|  8 |13359        (5)  
+    7           770|  9 |278           6   
+    4             7| 10 |                  
+    3           863| 11 |2             3   
+                   | 12 |6             2   
+___________________________________________
+                         HI: 14.1           
+n:               27      20             
+___________________________________________
+```
+{% endtab %}
+{% endtabs %}
+
+**\[ Method \#2 \] Colorful Plot**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+#sample data
+x<-list()
+x[[1]]<-c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 7.0, 7.6, 6.8, 
+    6.5, 7.0, 6.4, 7.9, 9.0, 8.2, 8.7, 7.8, 9.7, 7.4, 7.7, 
+    9.7, 7.8, 7.7, 11.6, 11.3, 11.8, 10.7)
+x[[2]]<-c(6.1, 5.8, 7.8, 7.1, 7.2, 9.2, 6.6, 8.3, 7.0,
+    8.3, 7.8, 8.1, 7.4, 8.5, 8.9, 9.8, 9.7, 14.1, 12.6, 11.2)
+
+#specify common breaks
+brx <- pretty(range(unlist(x)), 
+    n = nclass.Sturges(unlist(x)),min.n = 1)
+
+#calculate bins
+h1 = hist(x[[1]], breaks=brx, plot=FALSE)
+h2 = hist(x[[2]], breaks=brx, plot=FALSE)
+
+#draw
+plot(NA,NA,type="n", xlab="", ylab="",
+    xlim=range(c(-h1$counts, h2$counts)),
+    ylim=range(brx),
+    xaxt="n"
+)
+
+rect(-h1$counts, brx[-1], 0,  brx[-length(brx)], col="blue")
+rect(0, brx[-1], h2$counts,  brx[-length(brx)], col="red")
+
+axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
+```
+{% endtab %}
+
+{% tab title="Result Plot" %}
+![](../.gitbook/assets/image%20%289%29.png)
+{% endtab %}
+{% endtabs %}
+
+**\[ Method \#3 \]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+x<-list()
+x[[1]]<-c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 7.0, 7.6, 6.8, 6.5, 7.0, 6.4, 7.9, 9.0, 8.2, 8.7, 7.8, 9.7, 7.4, 7.7, 9.7, 7.8, 7.7, 11.6, 11.3, 11.8, 10.7)
+x[[2]]<-c(6.1, 5.8, 7.8, 7.1, 7.2, 9.2, 6.6, 8.3, 7.0, 8.3, 7.8, 8.1, 7.4, 8.5, 8.9, 9.8, 9.7, 14.1, 12.6, 11.2)
+
+X<-stack(setNames(x, c("a","b")))
+
+brx <- pretty(range(X$values), 
+    n = nclass.Sturges(X$values),min.n = 1)
+
+X$stem <- factor(brx[cut(unlist(x), breaks=brx, include.lowest=T, labels=F)], levels=brx[-length(brx)])
+X$leaf <- as.integer(X$values %% 1 *10)
+
+
+max.leaf.width <- 2*with(aggregate(leaf~ind+stem, X, length), tapply(leaf, ind, max))
+
+fmt<-paste0("%", max.leaf.width[1],"s | %2s | %-", max.leaf.width[2],"s")
+
+va<-with(subset(X, ind=="a"), tapply(leaf, stem, function(x) paste(rev(sort(x)), collapse=" ")))
+vb<-with(subset(X, ind=="b"), tapply(leaf, stem, function(x) paste(sort(x), collapse=" ")))
+
+va[is.na(va)]<-""
+vb[is.na(vb)]<-""
+
+cat(paste(sprintf(fmt, va, levels(X$stem), vb), collapse="\n"), "\n")
+```
+{% endtab %}
+
+{% tab title="Result" %}
+```text
+> cat(paste(sprintf(fmt, va, levels(X$stem), vb), collapse="\n"), "\n")
+                 9 |  5 | 7         
+     7 7 5 4 2 0 0 |  6 | 0 0 5     
+ 9 7 7 7 7 5 4 2 2 |  7 | 0 2 4 7 7 
+           6 1 0 0 |  8 | 0 3 3 5 9 
+               6 6 |  9 | 1 6 8     
+                 6 | 10 |           
+             8 5 3 | 11 | 1         
+                   | 12 | 5         
+                   | 13 |           
+                   | 14 | 0     
+```
+{% endtab %}
+{% endtabs %}
+
+
+
