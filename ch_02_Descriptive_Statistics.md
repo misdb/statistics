@@ -320,6 +320,8 @@ mean
 {% endtab %}
 {% endtabs %}
 
+
+
 #### 2) Median
 
 기업 직원의 연 평균 수입에 관심이 있다고 가정하자.  무작위로 선발된 직원 7명의 대략적인 연 수입은 다음과 같다(단위 : 천 달러)
@@ -333,7 +335,7 @@ mean
    **[Solution]**
 
    {% tabs %}
-   {% tab title="R Code" %}
+     {% tab title="R Code" %}
 
    ```
    x <- c(24.8, 22.8, 24.6, 192.4, 25.2, 18.5, 23.7)
@@ -350,7 +352,7 @@ mean
    ```
 
    {% endtab %}
-   {% endtabs %}
+     {% endtabs %}
 
 2.  위의 계산으로 볼 때 192.4 데이터는 이상치(outlier)로 판단이 된다. 따라서 이 데이터의 중심값으로 평균값이 아닌 중앙값(median)을 구하라.
 
@@ -374,7 +376,7 @@ mean
    ```
 
    {% endtab %}
-   {% endtabs %}
+     {% endtabs %}
 
    
 
