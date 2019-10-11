@@ -4,6 +4,8 @@
 
 Statistics using R
 
+Introductory Statistics : [https://saylordotorg.github.io/text\_introductory-statistics/](https://saylordotorg.github.io/text_introductory-statistics/)
+
 ## 2. Course Introduction
 
 This is the book of statistics for Business students.
