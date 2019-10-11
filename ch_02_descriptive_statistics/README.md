@@ -793,7 +793,7 @@ You probably have a good intuitive grasp of what the **average of a data set** s
 
 ![Heights of Men](../.gitbook/assets/image.png)
 
-![Relative Frequency Histogram of Heights of Adult Men](../.gitbook/assets/image%20%283%29.png)
+![Relative Frequency Histogram of Heights of Adult Men](../.gitbook/assets/image%20%286%29.png)
 
 **The Empirical Rule** 
 
@@ -805,21 +805,149 @@ If a data set has an _approximately bell-shaped relative frequency histogram_, t
 
 3. approximately 99.7% of the data lies within three standard deviations of the mean, that is, in the interval with endpoints $$x^-$$  ± 3s for samples and with endpoints μ ± 3σ for populations.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Two key points in regard to the Empirical Rule are that the data distribution must be _**approximately bell-shaped**_ and that the percentages are only _**approximately**_ true.
 
-Example 18\) 18세 남성들의 키가 평균 69.6 인치, 표준편차 1.4 인치의 종모양 분포를 한다. 
+**Example 18\)** 18세 남성들의 키가 평균 69.6 인치, 표준편차 1.4 인치의 종모양 분포를 한다. 
 
 a\) 이 사람들 중에 몇 퍼센트가 68.2인치와 71인치 사이에 있을까?
 
 b\) 이 사람들 중에 95% 정도가 포함되는 평균의 구간을 구하라.
 
+**\[Solution a\]**
 
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 69.6
+std <- 1.4
+x <- (68.2, 71)
+z <- (x - mean) / std
+```
+{% endtab %}
 
+{% tab title="Result a\)" %}
+```text
+> z
+## [1] -1  1
+```
+{% endtab %}
+{% endtabs %}
 
+**\[Solution b\]**
 
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 69.6
+std <- 1.4
+z <- 2
+x1 <- mean + z * std; x1
+x2 <- mean - z * std; x2
+```
+{% endtab %}
 
+{% tab title="Result b\)" %}
+```text
+> x1 <- mean + z * std; x1
+## [1] 72.4
+> x2 <- mean - z * std; x2
+## [1] 66.8
+```
+{% endtab %}
+{% endtabs %}
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+**Example 19\)** IQ 테스트 점수가 $$\mu = 100$$ 이고, $$\sigma = 10$$ 을 가진 종모양의 분포를 한다. 110, 120, 130 의 IQ를 가진 개인들과 관련하여 어떤 Empirical Rule이 적용되는가?
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 100
+std <- 10
+x <- c(110, 120, 130)
+z <- (x - mean) / std ; z
+```
+{% endtab %}
+
+{% tab title="z-scores" %}
+```text
+> z <- (x - mean) / std ; z
+## [1] 1 2 3
+```
+{% endtab %}
+{% endtabs %}
+
+![Distribution of IQ Scores](../.gitbook/assets/image%20%284%29.png)
 
 #### 2\) Chebychev's Theorem
 
+For any numerical data set, 
+
+1. at least $$3 / 4$$ of the data lie within two standard deviations of the mean, that is, in the interval with endpoints \($$x^-  $$ ±  2s\) for samples and with endpoints \(μ ± 2σ\) for populations; 
+2. at least 8/9 of the data lie within three standard deviations of the mean, that is, in the interval with endpoints  \($$x^-  $$ ± 3s\) for samples and with endpoints \(μ ± 3σ\) for populations;
+3. at least $$(1 - 1/k^2)$$ of the data lie within k standard deviations of the mean, that is, in the interval with endpoints \($$x^-  $$± ks\) for samples and with endpoints \(μ ± kσ\) for populations, where k is any positive whole number that is greater than 1.
+
+![A visual illustration of Chebchev&apos;s Theorem](../.gitbook/assets/image%20%283%29.png)
+
+It is important to pay careful attention to the words “at least” at the beginning of each of the three parts. The theorem gives _the minimum proportion of the data_ which must lie within a given number of standard deviations of the mean; the true proportions found within the indicated regions could be greater than what the theorem guarantees.
+
+**Example 20\)** 표본의 크기 $$n = 50$$인 표본이 평균 $$x^- = 28$$ , 그리고 표준편차 $$s = 3$$를 갖는다. 표본에 대한 어떠한 정보도 없이, \(22, 34\) 구간에 얼마나 많은 관측 데이터가 있을 수 있는가? 그리고 이 구간 밖에는 얼마나 많은 관측 데이터가 있다고 말할 수 있는가?
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 28
+std <- 3
+x <- c(22, 34)
+z <- (x - mean) / std ; z
+```
+{% endtab %}
+
+{% tab title="z-score" %}
+
+{% endtab %}
+{% endtabs %}
+
+![](../.gitbook/assets/image%20%288%29.png)
+
+**Example 21\)** 작년 매일 평일 오전 8시에서 10시 사이에 혼잡한 교차로를 통과하는 차량의 수를 관찰하여 기록하였다. 이 데이터 세트는 규모가 $$n = 251$$ 이다. 표본평균 $$x^- = 725$$ 이고, 표준편차 $$s = 25$$ 이다. 다음 중 사실인 것을 찾아라.
+
+1. On approximately 95% of the weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was between 675 and 775.
+2. On at least 75% of the weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was between 675 and 775.
+3. On at least 189 weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was between 675 and 775. 
+4. On at most 25% of the weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was either less than 675 or greater than 775. 
+5. On at most 12.5% of the weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was less than 675. 
+6. On at most 25% of the weekday mornings last year the number of vehicles passing through the intersection from 8:00 a.m. to 10:00 a.m. was less than 675.
+
+**\[Solution\]**
+
+{% tabs %}
+{% tab title="R Code" %}
+```text
+mean <- 725
+std <- 25
+x <- c(675, 775)
+z <- (x - mean) / std ; z
+```
+{% endtab %}
+
+{% tab title="z-score" %}
+```text
+> z <- (x - mean) / std ; z
+## [1] -2  2
+```
+{% endtab %}
+{% endtabs %}
+
+1. 데이터의 relative frequency histogram이 종모양인지 언급이 없기 때문에 Empirical Rule이 적용되지 않는다. 따라서 1.은 사실이 아닐 수 있다.
+2. chebychev's theorem이 적용되어 사실이어야 한다.
+3. 189/251 = 75.3% 그러므로 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장은 사실이다.
+4. 이 문장은 \(2\)번 문장과 같다. 따라서 이 문장도 사실이다. 
+5. 
