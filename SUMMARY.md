@@ -8,5 +8,5 @@
   * [2-1. Exercises](ch_02_descriptive_statistics/2-1_exercises.md)
   * [2-2. Exercises](ch_02_descriptive_statistics/2-2_exercises.md)
   * [2-3. Exercises](ch_02_descriptive_statistics/2-3_exercises.md)
-* [2-4. Exercises](2-4.-exercises.md)
+  * [2-4. Exercises](ch_02_descriptive_statistics/2-4.-exercises.md)
 
