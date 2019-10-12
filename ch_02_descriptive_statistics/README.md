@@ -793,7 +793,7 @@ You probably have a good intuitive grasp of what the **average of a data set** s
 
 ![Heights of Men](../.gitbook/assets/image.png)
 
-![Relative Frequency Histogram of Heights of Adult Men](../.gitbook/assets/image%20%286%29.png)
+![Relative Frequency Histogram of Heights of Adult Men](../.gitbook/assets/image%20%289%29.png)
 
 **The Empirical Rule** 
 
@@ -805,7 +805,7 @@ If a data set has an _approximately bell-shaped relative frequency histogram_, t
 
 3. approximately 99.7% of the data lies within three standard deviations of the mean, that is, in the interval with endpoints $$x^-$$  ± 3s for samples and with endpoints μ ± 3σ for populations.
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 Two key points in regard to the Empirical Rule are that the data distribution must be _**approximately bell-shaped**_ and that the percentages are only _**approximately**_ true.
 
@@ -858,7 +858,7 @@ x2 <- mean - z * std; x2
 {% endtab %}
 {% endtabs %}
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 **Example 19\)** IQ 테스트 점수가 $$\mu = 100$$ 이고, $$\sigma = 10$$ 을 가진 종모양의 분포를 한다. 110, 120, 130 의 IQ를 가진 개인들과 관련하여 어떤 Empirical Rule이 적용되는가?
 
@@ -882,7 +882,7 @@ z <- (x - mean) / std ; z
 {% endtab %}
 {% endtabs %}
 
-![Distribution of IQ Scores](../.gitbook/assets/image%20%284%29.png)
+![Distribution of IQ Scores](../.gitbook/assets/image%20%286%29.png)
 
 #### 2\) Chebychev's Theorem
 
@@ -915,7 +915,7 @@ z <- (x - mean) / std ; z
 {% endtab %}
 {% endtabs %}
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 **Example 21\)** 작년 매일 평일 오전 8시에서 10시 사이에 혼잡한 교차로를 통과하는 차량의 수를 관찰하여 기록하였다. 이 데이터 세트는 규모가 $$n = 251$$ 이다. 표본평균 $$x^- = 725$$ 이고, 표준편차 $$s = 25$$ 이다. 다음 중 사실인 것을 찾아라.
 
