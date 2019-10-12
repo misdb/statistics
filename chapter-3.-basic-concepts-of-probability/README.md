@@ -1,8 +1,6 @@
 # Chapter 3. Basic Concepts of Probability
 
-## 3.1 Sample Spaces, Events, and Their Probabilities
-
-### 1\) Sample Spaces and Events
+## 1. Sample Spaces and Events
 
 * _A_ **random experiment** _is a mechanism that produces a definite outcome that cannot be predicted with certainty. The_ **sample space** _associated with a random experiment is the set of all possible outcomes. An_ **event** _is a subset of the sample space._
 * _An event_ _E_ _is said to_ **occur** _on a particular trial of the experiment if the outcome observed is an element of the set_ _E_.
@@ -17,7 +15,7 @@
 
 
 
-#### 1-1\) Venn Diagram
+### 1-1. Venn Diagram
 
  A graphical representation of a sample space and events is a **Venn diagram**
 
@@ -33,7 +31,7 @@
 1. two same coins : two head -&gt; 2h, two tails -&gt; 2t, 2 different faces : d =&gt;$$S = \{ 2h, 2t, d \}$$ 
 2. two different coins \(penny, nickel\) :  $$S = \{ hh, th, ht, tt\}$$
 
-#### 1-2\) Venn Diagram Plot in R
+### 1-2. Venn Diagram Plot in R
 
 * type of count data.
 
@@ -138,7 +136,7 @@ venn.plot <- draw.quad.venn(
 
 \[ [source](http://www.incodom.kr/R_%28%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4%29/VennDiagram) \]
 
-#### 1-3\) tree diagram
+### 1-3. tree diagram
 
 *  A device that can be helpful in identifying all possible outcomes of a random experiment, particularly one that can be viewed as proceeding in stages, is what is called a **tree diagram**.
 
@@ -150,7 +148,7 @@ venn.plot <- draw.quad.venn(
 
 The line segments are called **branches** of the tree. The right ending point of each branch is called a **node**. The nodes on the extreme right are the **final nodes**; to each one there corresponds an outcome, as shown in the figure.
 
-#### **1-4\) Tree Diagram in R**
+### **1-4. Tree Diagram in R**
 
 * [fancyRpartPlot in R](http://www.dodomira.com/2016/07/19/r-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%EB%82%98%EB%AC%B4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-plotting-%ED%95%98%EA%B8%B0-fancyrpartplot-r/)
 
@@ -172,7 +170,7 @@ The line segments are called **branches** of the tree. The right ending point of
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-### 2\) Probability
+## 2. Probability
 
 * _The_ **probability of an outcome** _**e**_ _in a sample space_ _S_ _is a number_ _p_ _between 0 and 1 that measures the likelihood that_ _e_ _will occur on a single trial of the corresponding random experiment. The value_ $$p = 0$$ _corresponds to the outcome_ _e_ _being impossible and the value_ $$p = 1$$ _corresponds to the outcome_ _e_ _being certain._
 *  _he_ probability of an event _A_ _is the sum of the probabilities of the individual outcomes of which it is composed. It is denoted_  $$p(A)$$. 
