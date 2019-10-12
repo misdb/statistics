@@ -9,6 +9,13 @@ Statistics using R
 * Publisher: Saylor Academy
 * Year Published: 2012
 
+Data Sets :
+
+* [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
+* [http://www.flatworldknowledge.com/sites/all/files/data3.xls  ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
+* [http://www.flatworldknowledge.com/sites/all/files/data7.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
+* [http://www.flatworldknowledge.com/sites/all/files/data10.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
+
 ## 2. Course Introduction
 
 This is the book of statistics for Business students.
