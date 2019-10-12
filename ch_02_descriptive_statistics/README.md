@@ -1,6 +1,6 @@
 # Chapter 2. Descriptive Statistics
 
-### 2.1 세 가지 주요 데이터 표현 방법
+### 2.1 Three Popular Data Displays
 
 #### 1\) Stem and Leaf Diagrams
 
