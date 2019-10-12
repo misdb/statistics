@@ -10,3 +10,18 @@
   * [2-3. Exercises](ch_02_descriptive_statistics/2-3_exercises.md)
   * [2-4. Exercises](ch_02_descriptive_statistics/2-4.-exercises.md)
   * [2-5. Exercises](ch_02_descriptive_statistics/2-5.-exercises.md)
+* [Chapter 3. Basic Concepts of Probability](ch_03_Basic Concepts of Probability/README.md)
+  * [3-1. Exercises](ch_03_Basic Concepts of Probability/3-1_exercises.md)
+  * [3-2. Exercises](ch_03_Basic Concepts of Probability/3-2_exercises.md)
+  * [3-3. Exercises](ch_03_Basic Concepts of Probability/3-3_exercises.md)
+* [Chapter 4. Discrete Random Variables](ch_04_Discrete Random Variables/README.md)
+  * [4-1. Exercises](ch_04_Discrete Random Variables/4-1_exercises.md)
+  * [4-2. Exercises](ch_04_Discrete Random Variables/4-2_exercises.md)
+  * [4-3. Exercises](ch_04_Discrete Random Variables/4-3_exercises.md)
+* [Chapter 5. Continuous Random Variables](ch_05_Continuous Random Variables/README.md)
+  * [5-1. Exercises](ch_05_Continuous Random Variables/5-1_exercises.md)
+  * [5-2. Exercises](ch_05_Continuous Random Variables/5-2_exercises.md)
+  * [5-3. Exercises](ch_05_Continuous Random Variables/5-3_exercises.md)
+  * [5-4. Exercises](ch_05_Continuous Random Variables/5-4_exercises.md)
+
+  
