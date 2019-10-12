@@ -53,7 +53,7 @@ plot(v)
 {% endtab %}
 
 {% tab title="Venn Diagram" %}
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -122,15 +122,15 @@ venn.plot <- draw.quad.venn(
 {% endtab %}
 
 {% tab title="2-Set Diagram" %}
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 {% endtab %}
 
 {% tab title="3-Set Diagram" %}
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 {% endtab %}
 
 {% tab title="4-set Diagram" %}
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -152,23 +152,23 @@ The line segments are called **branches** of the tree. The right ending point of
 
 * [fancyRpartPlot in R](http://www.dodomira.com/2016/07/19/r-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%EB%82%98%EB%AC%B4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-plotting-%ED%95%98%EA%B8%B0-fancyrpartplot-r/)
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 * \*\*\*\*[How to create a massive tree diagram in RStudio?](https://stackoverflow.com/questions/36206299/how-to-create-a-massive-tree-diagram-in-rstudio)
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 * [Introduction to data.tree](https://cran.r-project.org/web/packages/data.tree/vignettes/data.tree.html)
 
-![](../.gitbook/assets/image%20%2819%29.png)
-
 ![](../.gitbook/assets/image%20%2821%29.png)
+
+![](../.gitbook/assets/image%20%2823%29.png)
 
 * [PROBABILITY TREE DIAGRAMS IN R](http://www.harrysurden.com/wordpress/archives/292)
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ## 2. Probability
 
