@@ -95,4 +95,12 @@
   * [10-8. Exercises](chapter-10.-correlation-and-regression/10-8.-exercises.md)
   * [10-9. Formula List](chapter-10.-correlation-and-regression/10-9.md)
   * [10-9. Exercises](chapter-10.-correlation-and-regression/10-9.-exercises.md)
- 
+* [Chapter 11. Chi-Square Tests and F-Tests](chapter-11.-chi-square-tests-and-f-tests/README.md)
+  * [11-1. Chi-Square Tests for Independence](chapter-11.-chi-square-tests-and-f-tests/11-1.md)
+  * [11-1. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-1.-exercises.md)
+  * [11-2. Chi-Square One-Sample Goodness-of-Fit Tests](chapter-11.-chi-square-tests-and-f-tests/11-2.md)
+  * [11-2. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-2.-exercises.md)
+  * [11-3. F-tests for Equality of Two Variances](chapter-11.-chi-square-tests-and-f-tests/11-3.md)
+  * [11-3. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-3.-exercises.md)
+  * [11-4. F-Tests in One-Way ANOVA](chapter-11.-chi-square-tests-and-f-tests/11-4.md)
+  * [11-4. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-4.-exercises.md)
