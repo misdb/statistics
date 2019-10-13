@@ -16,6 +16,10 @@ Data Sets :
 * [http://www.flatworldknowledge.com/sites/all/files/data7.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
 * [http://www.flatworldknowledge.com/sites/all/files/data10.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
 
+References
+
+* [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
+
 ## 2. Course Introduction
 
 This is the book of statistics for Business students.
