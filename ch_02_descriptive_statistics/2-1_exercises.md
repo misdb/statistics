@@ -1,6 +1,6 @@
 # 2-1. Exercises
 
-## 1\) Basic Exercises
+## 1. Basic Exercises
 
 1. frequency histogram과 relative frequency histogram 사이의 차이를 설명하라.
 2. frequency histogram과 비교하여 stem and leaf diagram이 갖는 장점을 설명하라.
@@ -37,7 +37,7 @@
    f/n  0.3   p  0.2  0.1
    ```
 
-## 2\) Application Exercises
+## 2. Application Exercises
 
 1. 초등학교에서 무작위로 선택된 학생들의 IQ 가 다음과 같다. 측정치를 80점대, 90점대 등과 같이 그룹화하여 stem and leaf diagram, frequency histogram, 그리고 relative frequency histogram 을 작성하라.
 
@@ -64,7 +64,7 @@
    20 15 14 14 18 15 17 16 16 18 15 19 12 13 9 19 15 15 16 15
    ```
 
-## 3\) Additional Exercises
+## 3. Additional Exercises
 
 1. 낚시에서 잡은 생선의 길이를 센티미터로 표시한 표본의 크기가 10인 무작위 표본 3개가 있다.
 
@@ -97,7 +97,7 @@
 
 
 
-## 4\) Comparative Stem and Leaf Plot
+## 4. Comparative Stem and Leaf Plot
 
 다음과 같이 2개의 데이터 세트가 있다. 이 데이터 세트를 비교하는 stem and leaft diagram을 작성하라.
 

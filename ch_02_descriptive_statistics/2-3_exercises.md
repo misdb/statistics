@@ -1,6 +1,6 @@
 # 2-3. Exercises
 
-### 1\) Basic Exercises
+## 1. Basic Exercises
 
 **Ex 1.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
@@ -42,7 +42,7 @@ f   1 1 2 1
 
 
 
-### 2\) Applications Exercies
+## 2. Applications Exercies
 
 **Ex 7.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
@@ -58,7 +58,7 @@ f   1 1 2 1
 
 
 
-### 3\) Additional Exercises
+## 3. Additional Exercises
 
 **Ex 9.** 다음의 표로 나타난 데이터 세트가 있다.
 
