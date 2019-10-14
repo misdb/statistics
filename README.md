@@ -19,6 +19,7 @@ Data Sets :
 References
 
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
+* \*\*\*\*[**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)\*\*\*\*
 
 ## 2. Course Introduction
 
