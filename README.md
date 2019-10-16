@@ -9,6 +9,12 @@ Statistics using R
 * Publisher: Saylor Academy
 * Year Published: 2012
 
+Robability & Statistics with R
+
+* Author: Lim, Taejin
+* Publisher: Life and Power Press
+* Year Published: 2019
+
 Data Sets :
 
 * [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
