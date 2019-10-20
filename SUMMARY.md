@@ -98,7 +98,6 @@
   * [10-8. A Complete Example](chapter-10.-correlation-and-regression/10-8.-a-complete-example.md)
   * [10-8. Exercises](chapter-10.-correlation-and-regression/10-8.-exercises.md)
   * [10-9. Formula List](chapter-10.-correlation-and-regression/10-9.-formula-list.md)
-  * [10-9. Exercises](chapter-10.-correlation-and-regression/10-9.-exercises.md)
 * [Chapter 11. Chi-Square Tests and F-Tests](chapter-11.-chi-square-tests-and-f-tests/README.md)
   * [11-1. Chi-Square Tests for Independence](chapter-11.-chi-square-tests-and-f-tests/11-1.-chi-square-tests-for-independence.md)
   * [11-1. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-1.-exercises.md)
