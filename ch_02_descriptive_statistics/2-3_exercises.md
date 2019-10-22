@@ -162,7 +162,7 @@ sd(x)
 
 **Ex 17.** \(-1, 0, 1\) 표본은 평균이 0, 표준편차가 1이다. 평균이 0이고 표준편차가 1보다 더 작은큰 값을 갖는 표본 크기 3인 데이터 세트를 작성하라.
 
-**Ex 18.** 다음과 같은 데이터 세트가 있다. 이 데이터 세트를 Data Set 1이라고 하자.
+**Ex 18.** 다음과 같은 데이터 세트가 있다. 이 데이터 세트를 **Data Set 1**이라고 하자.
 
 ```text
 5 -2 6 14 -3 0 1 4 3 3 5
@@ -231,7 +231,11 @@ sd(ds3)
 {% endtab %}
 {% endtabs %}
 
-**Ex 19.** 1,000 명의 학생들의 SAT와 GPS 성적을 수록하고 있는 Data Set 1이 의 사이트에 수록되어 있다.
+## **4.** LARGE DATA SET EXERCISES
+
+{% file src="../.gitbook/assets/data1 \(6\).xls" caption="Data Set 1" %}
+
+**Ex 19.** 1,000 명의 학생들의 SAT와 GPS 성적을 수록하고 있는 **Data Set 1**이 의 사이트에 수록되어 있다.
 
 {% embed url="http://www.flatworldknowledge.com/sites/all/files/data1.xls" caption="http://www.flatworldknowledge.com/sites/all/files/data1.xls " %}
 
@@ -308,7 +312,7 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
 {% endtab %}
 {% endtabs %}
 
-**Ex 20**. Data Set 1의 SAT성적을 이용하여 다음을 구하라.
+**Ex 20**. **Data Set 1**의 SAT성적을 이용하여 다음을 구하라.
 
 a. 이 데이터 세트가 모든 고등학생들의  데이터로 생각하자. 모집단의 범위와 표준편차$$(\sigma)$$를 계산하라.
 
@@ -392,7 +396,7 @@ sd(sat)
 {% endtab %}
 {% endtabs %}
 
-**Ex 21**. Data Set 1의 GPA성적을 이용하여 다음을 구하라.
+**Ex 21**. **Data Set 1**의 GPA성적을 이용하여 다음을 구하라.
 
 a. 이 데이터 세트가 모든 고등학생들의  데이터로 생각하자. 모집단의 범위와 표준편차$$(\sigma)$$를 계산하라.
 
