@@ -105,41 +105,93 @@ f  1  3 18  2  1
 
 **Ex 17.** Five laboratory mice with thymus leukemia are observed for a predetermined period of 500 days. After 500 days, four mice have died but the fifth one survives. The recorded survival times for the five mice are
 
-  493 421 222 378 500\*493 421 222 378 500\*
+```text
+493 421 222 378 500*
+```
 
-1. where 500\*500\* indicates that the fifth mouse survived for at least 500 days but the survival time \(i.e., the exact value of the observation\) is unknown.
-   1. Can you find the sample mean for the data set? If so, find it. If not, why not?
-   2. Can you find the sample median for the data set? If so, find it. If not, why not?
-2. Five laboratory mice with thymus leukemia are observed for a predetermined period of 500 days. After 450 days, three mice have died, and one of the remaining mice is sacrificed for analysis. By the end of the observational period, the last remaining mouse still survives. The recorded survival times for the five mice are222 421 378 450\* 500\*222 421 378 450\* 500\*
+where $$500*$$ indicates that the fifth mouse survived for at least 500 days but the survival time \(i.e., the exact value of the observation\) is unknown.
 
-   where \* indicates that the mouse survived for at least the given number of days but the exact value of the observation is unknown.
+1. Can you find the sample mean for the data set? If so, find it. If not, why not?
+2. Can you find the sample median for the data set? If so, find it. If not, why not?
 
-   1. Can you find the sample mean for the data set? If so, find it. If not, explain why not.
-   2. Can you find the sample median for the data set? If so, find it. If not, explain why not.
+**Ex 18**. Five laboratory mice with thymus leukemia are observed for a predetermined period of 500 days. After 450 days, three mice have died, and one of the remaining mice is sacrificed for analysis. By the end of the observational period, the last remaining mouse still survives. The recorded survival times for the five mice are 
 
-3. A player keeps track of all the rolls of a pair of dice when playing a board game and obtains the following data.xf210329440556668777x234567f102940566877xf867955103911281211x89101112f6755392811
+```text
+222 421 378 450* 500* 
+```
 
-   Find the mean, the median, and the mode.
+where \* indicates that the mouse survived for at least the given number of days but the exact value of the observation is unknown.
 
-4. Cordelia records her daily commute time to work each day, to the nearest minute, for two months, and obtains the following data.xf26327428162912306312321x26272829303132f341612621
-   1. Based on the frequencies, do you expect the mean and the median to be about the same or markedly different, and why?
-   2. Compute the mean, the median, and the mode.
-5. An ordered stem and leaf diagram gives the scores of 71 students on an exam.1098765430100002901101259110236121238221248332344446544775578678867996777787888910009111123801122345788970001124456667778896012223445777788502334467789425688399
-   1. Based on the shape of the display, do you expect the mean and the median to be about the same or markedly different, and why?
-   2. Compute the mean, the median, and the mode.
-6. A man tosses a coin repeatedly until it lands heads and records the number of tosses required. \(For example, if it lands heads on the first toss he records a 1; if it lands tails on the first two tosses and heads on the third he records a 3.\) The data are shown.xf13842208398456528612788293101x12345678910f384208985628128231
-   1. Find the mean of the data.
-   2. Find the median of the data.
-7. 1. Construct a data set consisting of ten numbers, all but one of which is above average, where the average is the mean.
-   2. Is it possible to construct a data set as in part \(a\) when the average is the median? Explain.
-8. Show that no matter what kind of average is used \(mean, median, or mode\) it is impossible for all members of a data set to be above average.
-9. 1. Twenty sacks of grain weigh a total of 1,003 lb. What is the mean weight per sack?
-   2. Can the median weight per sack be calculated based on the information given? If not, construct two data sets with the same total but different medians.
-10. Begin with the following set of data, call it Data Set I.5 −2 6 14 −3 0 1 4 3 2 55 −2 6 14 −3 0 1 4 3 2 5
-    1. Compute the mean, median, and mode.
-    2. Form a new data set, Data Set II, by adding 3 to each number in Data Set I. Calculate the mean, median, and mode of Data Set II.
-    3. Form a new data set, Data Set III, by subtracting 6 from each number in Data Set I. Calculate the mean, median, and mode of Data Set III.
-    4. Comparing the answers to parts \(a\), \(b\), and \(c\), can you guess the pattern? State the general principle that you expect to be true.
+1. Can you find the sample mean for the data set? If so, find it. If not, explain why not.
+2. Can you find the sample median for the data set? If so, find it. If not, explain why not.
+
+**Ex 19.**  A player keeps track of all the rolls of a pair of dice when playing a board game and obtains the following data.
+
+```text
+x    2   3   4   5   6   7  8   9   10  11  12
+f   10  29  40  56  68  77 67  55   39  28  11
+```
+
+Find the mean, the median, and the mode.
+
+**Ex 20.** Cordelia records her daily commute time to work each day, to the nearest minute, for two months, and obtains the following data.
+
+```text
+x   26   27   28   29   30   31   32
+f    3    4   16   12    6    2    1
+```
+
+1. Based on the frequencies, do you expect the mean and the median to be about the same or markedly different, and why?
+2. Compute the mean, the median, and the mode.
+
+**Ex 21.** An ordered stem and leaf diagram gives the scores of 71 students on an exam.
+
+```text
+10 |  00
+ 9 |  111123
+ 8 |  01122345
+ 7 |  8897000112445666777889
+ 6 |  012223445777788
+ 5 |  02334467789
+ 4 |  25688
+ 3 |  99
+```
+
+1. Based on the shape of the display, do you expect the mean and the median to be about the same or markedly different, and why?
+2. Compute the mean, the median, and the mode.
+
+**Ex 22.** A man tosses a coin repeatedly until it lands heads and records the number of tosses required. \(For example, if it lands heads on the first toss he records a 1; if it lands tails on the first two tosses and heads on the third he records a 3.\) The data are shown.
+
+```text
+x      1     2    3    4    5    6  7  8  9  10
+f    384   208   98   56   28   12  8  2  3   1
+```
+
+1. Find the mean of the data.
+2. Find the median of the data.
+
+**Ex 23.** 
+
+1. Construct a data set consisting of ten numbers, all but one of which is above average, where the average is the mean.
+2. Is it possible to construct a data set as in part \(a\) when the average is the median? Explain.
+
+**Ex 24.** Show that no matter what kind of average is used \(mean, median, or mode\) it is impossible for all members of a data set to be above average.
+
+**Ex 25.** 
+
+1. Twenty sacks of grain weigh a total of 1,003 lb. What is the mean weight per sack?
+2. Can the median weight per sack be calculated based on the information given? If not, construct two data sets with the same total but different medians.
+
+**Ex 26.** Begin with the following set of data, call it Data Set I.
+
+```text
+5 −2 6 14 −3 0 1 4 3 2 5
+```
+
+1. Compute the mean, median, and mode.
+2. Form a new data set, Data Set II, by adding 3 to each number in Data Set I. Calculate the mean, median, and mode of Data Set II.
+3. Form a new data set, Data Set III, by subtracting 6 from each number in Data Set I. Calculate the mean, median, and mode of Data Set III.
+4. Comparing the answers to parts \(a\), \(b\), and \(c\), can you guess the pattern? State the general principle that you expect to be true.
 
 ## **4. LARGE DATA SET EXERCISES**
 
