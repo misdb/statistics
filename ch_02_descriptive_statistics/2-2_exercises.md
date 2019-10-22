@@ -199,7 +199,7 @@ Note: All of the data sets associated with these questions are missing, but the 
 
 {% file src="../.gitbook/assets/data1 \(4\).xls" caption="Data Set 1" %}
 
-{% file src="../.gitbook/assets/data7.xls" caption="Data Set 7" %}
+{% file src="../.gitbook/assets/data7 \(1\).xls" caption="Data Set 7" %}
 
 {% file src="../.gitbook/assets/data7a.xls" caption="Data Set 7A" %}
 
