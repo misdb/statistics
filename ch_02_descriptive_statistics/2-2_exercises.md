@@ -197,18 +197,26 @@ f    384   208   98   56   28   12  8  2  3   1
 
 Note: All of the data sets associated with these questions are missing, but the questions themselves are included here for reference.
 
-1. Large Data Set 1 lists the SAT scores and GPAs of 1,000 students.
+{% file src="../.gitbook/assets/data1 \(4\).xls" caption="Data Set 1" %}
+
+{% file src="../.gitbook/assets/data7.xls" caption="Data Set 7" %}
+
+{% file src="../.gitbook/assets/data7a.xls" caption="Data Set 7A" %}
+
+{% file src="../.gitbook/assets/data7b \(1\).xls" caption="Data Set 7b" %}
+
+1. Large **Data Set 1** lists the SAT scores and GPAs of 1,000 students.
    1. Compute the mean and median of the 1,000 SAT scores.
    2. Compute the mean and median of the 1,000 GPAs.
-2. Large Data Set 1 lists the SAT scores of 1,000 students.
-   1. Regard the data as arising from a census of all students at a high school, in which the SAT score of every student was measured. Compute the population mean _μ_.
-   2. Regard the first 25 observations as a random sample drawn from this population. Compute the sample mean x−−x- and compare it to _μ_.
-   3. Regard the next 25 observations as a random sample drawn from this population. Compute the sample mean x−−x- and compare it to _μ_.
-3. Large Data Set 1 lists the GPAs of 1,000 students.
+2. Large **Data Set 1** lists the SAT scores of 1,000 students.
+   1. Regard the data as arising from a census of all students at a high school, in which the SAT score of every student was measured. Compute the population mean $$μ$$ .
+   2. Regard the first 25 observations as a random sample drawn from this population. Compute the sample mean $$\bar{x}$$ and compare it to $$μ$$ .
+   3. Regard the next 25 observations as a random sample drawn from this population. Compute the sample mean $$\bar{x}$$ and compare it to $$μ$$ .
+3. Large **Data Set 1** lists the GPAs of 1,000 students.
    1. Regard the data as arising from a census of all freshman at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean _μ_.
-   2. Regard the first 25 observations as a random sample drawn from this population. Compute the sample mean x−−x- and compare it to _μ_.
-   3. Regard the next 25 observations as a random sample drawn from this population. Compute the sample mean x−−x- and compare it to _μ_.
-4. Large Data Sets 7, 7A, and 7B list the survival times in days of 140 laboratory mice with thymic leukemia from onset to death.
+   2. Regard the first 25 observations as a random sample drawn from this population. Compute the sample mean $$\bar{x}$$ and compare it to $$μ$$ .
+   3. Regard the next 25 observations as a random sample drawn from this population. Compute the sample mean $$\bar{x}$$ and compare it to $$μ$$ .
+4. Large **Data Sets 7, 7A, and 7B** list the survival times in days of 140 laboratory mice with thymic leukemia from onset to death.
    1. Compute the mean and median survival time for all mice, without regard to gender.
    2. Compute the mean and median survival time for the 65 male mice \(separately recorded in Large Data Set 7A\).
    3. Compute the mean and median survival time for the 75 female mice \(separately recorded in Large Data Set 7B\).
