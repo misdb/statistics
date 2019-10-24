@@ -197,7 +197,7 @@ f    384   208   98   56   28   12  8  2  3   1
 
 Note: All of the data sets associated with these questions are missing, but the questions themselves are included here for reference.
 
-{% file src="../.gitbook/assets/data1 \(4\).xls" caption="Data Set 1" %}
+{% file src="../.gitbook/assets/data1 \(5\).xls" caption="Data Set 1" %}
 
 {% file src="../.gitbook/assets/data7 \(1\).xls" caption="Data Set 7" %}
 

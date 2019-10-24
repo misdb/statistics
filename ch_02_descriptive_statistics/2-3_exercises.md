@@ -233,7 +233,7 @@ sd(ds3)
 
 ## **4.** LARGE DATA SET EXERCISES
 
-{% file src="../.gitbook/assets/data1 \(6\).xls" caption="Data Set 1" %}
+{% file src="../.gitbook/assets/data1 \(7\).xls" caption="Data Set 1" %}
 
 **Ex 19.** 1,000 명의 학생들의 SAT와 GPS 성적을 수록하고 있는 **Data Set 1**이 의 사이트에 수록되어 있다.
 
