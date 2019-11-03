@@ -35,17 +35,46 @@
 {% tab title="R Code" %}
 ```text
 age <- c(18, 18, 19, 19, 19, 18, 22, 20, 18, 18, 17, 19, 18, 24, 18, 20, 18, 21, 20, 17, 19)
-table(age)
+
+# 1. Frequency Table
+y <- table(age) ; y
+
+# 2. Relative Frequency Table
+prop.table(y)
+
+# 3. Frequency Diagram
+plot(y)
+
+# 4. Relative Frequency Diagram
+plot(prop.table(y))
 ```
 {% endtab %}
 
-{% tab title="Result" %}
+{% tab title="Frequency Table" %}
 ```text
-> table(age)
+> # 1. Frequency Table
+> y <- table(age); y
 ## age
 ## 17 18 19 20 21 22 24 
-##  2  8  5  3  1  1  1
+##  2  8  5  3  1  1  1 
+>
+> # 2. Relative Frequency Table
+> prop.table(y)
+## age
+##         17         18         19         20         21         22         24 
+## 0.09523810 0.38095238 0.23809524 0.14285714 0.04761905 0.04761905 0.04761905 
+> 
 ```
+{% endtab %}
+
+{% tab title="Plot" %}
+* Frequency Diagram
+
+![](../.gitbook/assets/image%20%28151%29.png)
+
+* Relative Frequency Diagram
+
+![](../.gitbook/assets/image%20%2819%29.png)
 {% endtab %}
 {% endtabs %}
 
