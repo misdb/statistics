@@ -27,6 +27,8 @@
   * [4-1. Exercises](chapter-4.-discrete-random-variables/4-1.-exercises.md)
   * [4-2. Probability Distributions for Discrete Random Variables](chapter-4.-discrete-random-variables/4-2.-probability-distributions-for-discrete-random-variables.md)
   * [4-2. Exercises](chapter-4.-discrete-random-variables/4-2.-exercises.md)
+  * [4-3. Uniform Distribution](chapter-4.-discrete-random-variables/4-3.-uniform-distribution.md)
+  * [4-3. Exercises](chapter-4.-discrete-random-variables/4-3.-exercises-1.md)
   * [4-4. The Binomial Distribution](chapter-4.-discrete-random-variables/4-3.-the-binomial-distribution.md)
   * [4-4. Exercises](chapter-4.-discrete-random-variables/4-3.-exercises.md)
   * [4-5. Hypergeometric Distribution](chapter-4.-discrete-random-variables/4-4.-hypergeometric-distribution.md)
