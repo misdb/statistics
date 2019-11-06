@@ -4,38 +4,38 @@
 
 **Ex 1.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 1 2 3 4
 ```
 
 **Ex 2.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 2 -2 6 0 2 1
 ```
 
 **Ex 3.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 2 1 2 7
 ```
 
 **Ex 4.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 -1 0 1 4 1 1
 ```
 
 **Ex 5.** data frequency table로 표현된 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 x  1 2 7
 f  1 2 1
 ```
 
 **Ex 6.** data frequency table로 표현된 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 x  -1 0 1 4
 f   1 1 2 1
 ```
@@ -46,13 +46,13 @@ f   1 1 2 1
 
 **Ex 7.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 122 162 123 145 148 120 147 160 150 152
 ```
 
 **Ex 8.** 다음 표본의 범위\(range\), 분산\(variance\) 그리고 표준편차\(standard deviation\)을 구하라.
 
-```text
+```
 142 152 128 145 148 129 147 155 150 152
 ```
 
@@ -62,7 +62,7 @@ f   1 1 2 1
 
 **Ex 9.** 다음의 표로 나타난 데이터 세트가 있다.
 
-```text
+```
 x 26 27 28 29 30 31 32
 f  3  4 16 12  6  2  1
 ```
@@ -75,7 +75,7 @@ b. 위의 결과를 이용하여 표본 평균과 표본 표준편차를 구하�
 
 **Ex 10.** 다음의 데이터에 대하여 표본 표준편차를 구하라.
 
-```text
+```
 x    1    2    3    4    5    6    7    8    9   10
 f  284  208   98   56   28   12    8    2    3    1
 ```
@@ -84,7 +84,7 @@ f  284  208   98   56   28   12    8    2    3    1
 
 **Ex 11.** 자동차 수리센터에서 수리비 청서를 49건 무작위로 선택하였다. 그 데이터를 stem and leaf diagram으로 정렬하였다. \(stem은 천단위, leaf는 백단위로 표시되어 있으며  가장 큰 금액은 3,800이었다.\)
 
-```text
+```
   0 | 4
   0 | 5688
   1 | 0012444
@@ -105,7 +105,7 @@ c. 표본 표준편차를 구하라.
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 x <- c(35, 36, 38, 30, 30, 31, 31, 32, 34, 25, 26, 26, 27, 27, 28, 28, 
        29, 29, 20, 20, 20, 20, 20, 21, 22, 22, 24, 15, 15, 15, 16, 16,
        17, 17, 17, 18, 18, 19, 10, 10, 11, 12, 14, 14, 14, 5, 6, 8, 8,
@@ -127,7 +127,7 @@ sd(x)
 {% endtab %}
 
 {% tab title="a." %}
-```text
+```
 > # a.
 > mean(x)   # mean
 [1] 20.6
@@ -135,14 +135,14 @@ sd(x)
 {% endtab %}
 
 {% tab title="b." %}
-```text
+```
 > median(x) # median
 [1] 20
 ```
 {% endtab %}
 
 {% tab title="c." %}
-```text
+```
 > y <- table(x)   # mode
 > names(which.max(y))
 [1] "20"
@@ -164,7 +164,7 @@ sd(x)
 
 **Ex 18.** 다음과 같은 데이터 세트가 있다. 이 데이터 세트를 **Data Set 1**이라고 하자.
 
-```text
+```
 5 -2 6 14 -3 0 1 4 3 3 5
 ```
 
@@ -180,7 +180,7 @@ d. \(a\), \(b\), \(c\)의 결과를 비교하고 일반적인 원리로 제시�
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 ds1 <- c(5, -2, 6, 14, -3, 0, 1, 4, 3, 3, 5)
 
 # a
@@ -197,7 +197,7 @@ sd(ds3)
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > # a
 > sd(ds1)
 [1] 4.60632
@@ -205,7 +205,7 @@ sd(ds3)
 {% endtab %}
 
 {% tab title="b" %}
-```text
+```
 > # b
 > ds2 <- ds1 + 3; ds2
  [1]  8  1  9 17  0  3  4  7  6  6  8
@@ -215,7 +215,7 @@ sd(ds3)
 {% endtab %}
 
 {% tab title="c" %}
-```text
+```
 > # c
 > ds3 <- ds2 - 6; ds3
  [1]  2 -5  3 11 -6 -3 -2  1  0  0  2
@@ -247,7 +247,7 @@ b. GPS 성적의 범위와 표본 표준편차를 구하라.
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 install.packages("readxl")
 library(readxl)
 
@@ -275,7 +275,7 @@ sd(gpa)
 {% endtab %}
 
 {% tab title="Data Set 1" %}
-```text
+```
 > str(dataset1)                                                                                                                > str(dataset1)
 Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
  $ SAT Score  : num  1300 1520 1580 1430 1610 1230 1520 1320 1240 1480 ...
@@ -290,7 +290,7 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > # a.
 > range_SAT <- max(sat) - min(sat)
 > range_SAT
@@ -301,7 +301,7 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   1000 obs. of  2 variables:
 {% endtab %}
 
 {% tab title="b" %}
-```text
+```
 > # b.
 > range_GPA <- max(gpa) - min(gpa)
 > range_GPA
@@ -324,7 +324,7 @@ c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
 
@@ -352,7 +352,7 @@ sd(sat)
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > # Population Data Set
 > sat <- dataset1[[1]]; head(sat)
 [1] 1300 1520 1580 1430 1610 1230
@@ -366,7 +366,7 @@ sd(sat)
 {% endtab %}
 
 {% tab title="b" %}
-```text
+```
 > # Sample Data Set : First 25 Observations.
 > sat <- dataset1[[1]][1:25]; sat
  [1] 1300 1520 1580 1430 1610 1230 1520 1320 1240 1480 1780 1870 1140 1580 1520 1510 1490 1760 1430 1630 1960 1330
@@ -381,7 +381,7 @@ sd(sat)
 {% endtab %}
 
 {% tab title="c" %}
-```text
+```
 > # Sample Data Set : Next 25 Observations.
 > sat <- dataset1[[1]][26:50]; sat
  [1] 1700 1320 1540 1510 1120 1690 1870 1450 1430 1850 1510 1510 1700 1330 1820 1360 1820 1670 1690 1330 1520 1180
@@ -408,7 +408,7 @@ c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
 
@@ -436,7 +436,7 @@ sd(gpa)
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > # Population Data Set
 > gpa <- dataset1[[2]]; head(gpa)
 [1] 3.66 2.92 2.66 2.27 2.35 2.02
@@ -450,7 +450,7 @@ sd(gpa)
 {% endtab %}
 
 {% tab title="b" %}
-```text
+```
 > # Sample Data Set : First 25 Observations.
 > gpa <- dataset1[[2]][1:25]; gpa
  [1] 3.66 2.92 2.66 2.27 2.35 2.02 2.94 1.76 2.35 3.16 1.69 3.38 0.62 2.25 3.17 2.72 2.24 1.78 2.99 3.13 3.65 3.41
@@ -465,7 +465,7 @@ sd(gpa)
 {% endtab %}
 
 {% tab title="c" %}
-```text
+```
 > # Sample Data Set : Next 25 Observations.
 > gpa <- dataset1[[2]][26:50]; gpa
  [1] 2.22 1.80 3.19 1.80 2.25 3.25 3.31 2.05 1.41 2.94 2.52 2.34 2.63 1.35 3.65 2.60 2.61 2.18 2.67 1.16 3.11 1.65
@@ -496,7 +496,7 @@ c. 암컷\(gender = "F"\) 쥐들의 범위와 표준편차를 구하라.
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 dataset <- read_excel("data7.xls")
 str(dataset)
 
@@ -514,7 +514,7 @@ aggregate(surv_day~gender, FUN=mean)
 {% endtab %}
 
 {% tab title="Data Set" %}
-```text
+```
 > str(dataset)
 Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   140 obs. of  3 variables:
  $ ID                  : num  1 2 3 4 5 6 7 8 9 10 ...
@@ -533,7 +533,7 @@ Levels: F M
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > # a.
 > mean(surv_day)
 [1] 553.4286
@@ -541,7 +541,7 @@ Levels: F M
 {% endtab %}
 
 {% tab title="b. c." %}
-```text
+```
 > # b. c.
 > aggregate(surv_day~gender, FUN=mean)
   gender surv_day
@@ -555,7 +555,7 @@ Levels: F M
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 dataset <- read_excel("data7.xls")
 str(dataset)
 
@@ -576,7 +576,7 @@ mean_surv_F <- mean(data$surv_day[data$gender == "F"]) ; mean_surv_F
 {% endtab %}
 
 {% tab title="a" %}
-```text
+```
 > str(dataset)
 Classes ‘tbl_df’, ‘tbl’ and 'data.frame':   140 obs. of  3 variables:
  $ ID                  : num  1 2 3 4 5 6 7 8 9 10 ...
@@ -598,7 +598,7 @@ Levels: F M
 {% endtab %}
 
 {% tab title="b. c." %}
-```text
+```
 > # or b. c. 
 > data <- data.frame(gender, surv_day); head(data)
   gender surv_day

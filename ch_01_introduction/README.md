@@ -27,13 +27,13 @@
 
 **Example 1.** 임의로 선택된 21명 학생들의 나이 데이터이다. 이들 데이터에 대한 도수 분포표를 작성하라.
 
-```text
+```
 18 18 19 19 19 18 22 20 18 18 17 19 18 24 18 20 18 21 20 17 19
 ```
 
 {% tabs %}
 {% tab title="R Code" %}
-```text
+```
 age <- c(18, 18, 19, 19, 19, 18, 22, 20, 18, 18, 17, 19, 18, 24, 18, 20, 18, 21, 20, 17, 19)
 
 # 1. Frequency Table
@@ -51,7 +51,7 @@ plot(prop.table(y))
 {% endtab %}
 
 {% tab title="Frequency Table" %}
-```text
+```
 > # 1. Frequency Table
 > y <- table(age); y
 ## age
