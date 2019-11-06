@@ -109,4 +109,5 @@
   * [11-3. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-3.-exercises.md)
   * [11-4. F-Tests in One-Way ANOVA](chapter-11.-chi-square-tests-and-f-tests/11-4.-f-tests-in-one-way-anova.md)
   * [11-4. Exercises](chapter-11.-chi-square-tests-and-f-tests/11-4.-exercises.md)
+* [Chapter 12. Appendix](chapter-12.-appendix.md)
 
