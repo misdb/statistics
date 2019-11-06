@@ -1,7 +1,5 @@
 # Chapter 12. Appendix
 
-## Chapter 12Appendix
-
 Figure 12.1 Cumulative Binomial Probability
 
 ![](https://saylordotorg.github.io/text_introductory-statistics/section_16/f85c609bb3d84e64f37160c5b8c877f4.jpg)
