@@ -27,43 +27,20 @@
 
 **Example 1.** 임의로 선택된 21명 학생들의 나이 데이터이다. 이들 데이터에 대한 도수 분포표를 작성하라.
 
-```
+```text
 18 18 19 19 19 18 22 20 18 18 17 19 18 24 18 20 18 21 20 17 19
 ```
 
 {% tabs %}
 {% tab title="R Code" %}
-```
-age <- c(18, 18, 19, 19, 19, 18, 22, 20, 18, 18, 17, 19, 18, 24, 18, 20, 18, 21, 20, 17, 19)
-
-# 1. Frequency Table
-y <- table(age) ; y
-
-# 2. Relative Frequency Table
-prop.table(y)
-
-# 3. Frequency Diagram
-plot(y)
-
-# 4. Relative Frequency Diagram
-plot(prop.table(y))
+```text
+age <- c(18, 18, 19, 19, 19, 18, 22, 20, 18, 18, 17, 19, 18, 24, 18, 20, 18, 21, 20, 17, 19)# 1. Frequency Tabley <- table(age) ; y# 2. Relative Frequency Tableprop.table(y)# 3. Frequency Diagramplot(y)# 4. Relative Frequency Diagramplot(prop.table(y))
 ```
 {% endtab %}
 
 {% tab title="Frequency Table" %}
-```
-> # 1. Frequency Table
-> y <- table(age); y
-## age
-## 17 18 19 20 21 22 24 
-##  2  8  5  3  1  1  1 
->
-> # 2. Relative Frequency Table
-> prop.table(y)
-## age
-##         17         18         19         20         21         22         24 
-## 0.09523810 0.38095238 0.23809524 0.14285714 0.04761905 0.04761905 0.04761905 
-> 
+```text
+> # 1. Frequency Table> y <- table(age); y## age## 17 18 19 20 21 22 24 ##  2  8  5  3  1  1  1 >> # 2. Relative Frequency Table> prop.table(y)## age##         17         18         19         20         21         22         24 ## 0.09523810 0.38095238 0.23809524 0.14285714 0.04761905 0.04761905 0.04761905 > 
 ```
 {% endtab %}
 
