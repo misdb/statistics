@@ -104,7 +104,7 @@ c. 표본 표준편차를 구하라.
 **\[Solution\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 x <- c(35, 36, 38, 30, 30, 31, 31, 32, 34, 25, 26, 26, 27, 27, 28, 28, 
        29, 29, 20, 20, 20, 20, 20, 21, 22, 22, 24, 15, 15, 15, 16, 16,
@@ -179,7 +179,7 @@ d. \(a\), \(b\), \(c\)의 결과를 비교하고 일반적인 원리로 제시�
 **\[Solution\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 ds1 <- c(5, -2, 6, 14, -3, 0, 1, 4, 3, 3, 5)
 
@@ -246,7 +246,7 @@ b. GPS 성적의 범위와 표본 표준편차를 구하라.
 **\[Solution\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 install.packages("readxl")
 library(readxl)
@@ -323,7 +323,7 @@ c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선
 **\[Solution\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
@@ -407,7 +407,7 @@ c.  이 모집단에서 무작위 표본으로 그 다음 25개 데이터를 선
 **\[Solution\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 dataset1 <- read_excel("data1.xls")
 str(dataset1)
@@ -495,7 +495,7 @@ c. 암컷\(gender = "F"\) 쥐들의 범위와 표준편차를 구하라.
  **\[Solution A\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 dataset <- read_excel("data7.xls")
 str(dataset)
@@ -554,7 +554,7 @@ Levels: F M
 **\[Solution B\]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 dataset <- read_excel("data7.xls")
 str(dataset)
