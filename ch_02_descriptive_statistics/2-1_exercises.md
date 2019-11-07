@@ -118,7 +118,7 @@ b <- c(6.1, 5.8, 7.8, 7.1, 7.2, 9.2, 6.6, 8.3, 7.0, 8.3, 7.8, 8.1, 7.4, 8.5,
 **\[ Method \#1 \] Diagram**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 install.packages("aplpack")
 library(aplpack)
@@ -187,7 +187,7 @@ ___________________________________________
 **\[ Method \#2 \] Colorful Plot**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 #sample data
 x<-list()
@@ -227,7 +227,7 @@ axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
 **\[ Method \#3 \]**
 
 {% tabs %}
-{% tab title="R Code" %}
+{% tab title="R Source" %}
 ```text
 x<-list()
 x[[1]]<-c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 7.0, 7.6, 6.8, 6.5, 7.0, 6.4, 7.9, 9.0, 8.2, 8.7, 7.8, 9.7, 7.4, 7.7, 9.7, 7.8, 7.7, 11.6, 11.3, 11.8, 10.7)
