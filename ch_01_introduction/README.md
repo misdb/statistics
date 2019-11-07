@@ -47,7 +47,7 @@ age <- c(18, 18, 19, 19, 19, 18, 22, 20, 18, 18, 17, 19, 18, 24, 18, 20, 18, 21,
 {% tab title="Plot" %}
 * Frequency Diagram
 
-![](../.gitbook/assets/image%20%28156%29.png)
+![](../.gitbook/assets/image%20%28157%29.png)
 
 * Relative Frequency Diagram
 
