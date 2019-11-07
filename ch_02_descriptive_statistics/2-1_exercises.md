@@ -136,7 +136,7 @@ install.packages("aplpack")library(aplpack)a <- c(5.9, 7.2, 7.3, 6.3, 8.1, 6.8, 
 {% endtab %}
 
 {% tab title="Result Plot" %}
-![](../.gitbook/assets/image%20%28163%29.png)
+![](../.gitbook/assets/image%20%28166%29.png)
 {% endtab %}
 {% endtabs %}
 
