@@ -35,6 +35,7 @@
   * [4-5. Exercises](chapter-4.-discrete-random-variables/4-5.-exercises.md)
   * [4-6. Poisson distribution](chapter-4.-discrete-random-variables/4-6.-poisson-distribution.md)
   * [4-6. Exercises](chapter-4.-discrete-random-variables/4-6.-exercises.md)
+  * [4-7. Geometric Distribution](chapter-4.-discrete-random-variables/4-7.-geometric-distribution.md)
 * [Chapter 5. Continuous Random Variables](chapter-5.-continuous-random-variables/README.md)
   * [5-1. Continuous Random Variables](chapter-5.-continuous-random-variables/5-1.-continuous-random-variables.md)
   * [5-1. Exercises](chapter-5.-continuous-random-variables/5-1.-exercises.md)
