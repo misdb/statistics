@@ -9,7 +9,7 @@ Statistics using R
 * Publisher: Saylor Academy
 * Year Published: 2012
 
-Robability & Statistics with R
+**Probability & Statistics with R**
 
 * Author: Lim, Taejin
 * Publisher: Life and Power Press
@@ -26,6 +26,7 @@ References
 
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 * \*\*\*\*[**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)\*\*\*\*
+* [Statistics](https://m.blog.naver.com/PostList.nhn?blogId=mykepzzang&categoryNo=38&currentPage=10) \(Korean\)
 
 ## 2. Course Introduction
 
@@ -33,9 +34,9 @@ This is the book of statistics for Business students.
 
 ## 3. Course Schedule
 
-Week 1 Week 2 Week 3
+
 
 ## 4. Evaluation
 
-Mid 40%, Final 40%, Class 20%
+Mid 30%, Final 30%, Assignment 20%, Class 20%
 
