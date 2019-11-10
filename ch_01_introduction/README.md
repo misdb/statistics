@@ -70,7 +70,7 @@ plot(prop.table(y))
 {% tab title="Plot" %}
 * Frequency Diagram
 
-![](../.gitbook/assets/image%20%28183%29.png)
+![](../.gitbook/assets/image%20%28184%29.png)
 
 * Relative Frequency Diagram
 
