@@ -37,6 +37,7 @@
   * [4-7. Geometric Distribution](chapter-4.-discrete-random-variables/4-7.-geometric-distribution.md)
   * [4-8. Negative Binomial Distribution](chapter-4.-discrete-random-variables/4-8.-negative-binomial-distribution.md)
   * [4-9. Negative Hypergeometric Distribution](chapter-4.-discrete-random-variables/4-9.-negative-hypergeometric-distribution.md)
+  * [4-9. Exercises](chapter-4.-discrete-random-variables/4-9.-exercises.md)
   * [4-10. Poisson distribution](chapter-4.-discrete-random-variables/4-10.-poisson-distribution.md)
   * [4-10. Exercises](chapter-4.-discrete-random-variables/4-10.-exercises.md)
 * [Chapter 5. Continuous Random Variables](chapter-5.-continuous-random-variables/README.md)
