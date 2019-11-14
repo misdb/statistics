@@ -22,6 +22,7 @@
   * [3-2. Exercises](chapter-3.-basic-concepts-of-probability/3-2.-exercises.md)
   * [3-3. Conditional Probability and Independent Events](chapter-3.-basic-concepts-of-probability/3-3.-conditional-probability-and-independent-events.md)
   * [3-3. Exercises](chapter-3.-basic-concepts-of-probability/3-3.-exercises.md)
+  * [3-4. Bayes' Theorem](chapter-3.-basic-concepts-of-probability/3-4.-bayes-theorem.md)
 * [Chapter 4. Discrete Random Variables](chapter-4.-discrete-random-variables/README.md)
   * [4-1. Random Variables](chapter-4.-discrete-random-variables/4-1.-random-variables.md)
   * [4-1. Exercises](chapter-4.-discrete-random-variables/4-1.-exercises.md)
