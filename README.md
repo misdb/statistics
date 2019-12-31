@@ -14,8 +14,9 @@ Statistics using R
 * Author: Lim, Taejin
 * Publisher: Life and Power Press
 * Year Published: 2019
+* [http://www.yes24.com/Product/Goods/69291171?scode=029](http://www.yes24.com/Product/Goods/69291171?scode=029)
 
-![](.gitbook/assets/800x0.jpg)
+
 
 Data Sets :
 
