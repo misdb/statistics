@@ -40,5 +40,5 @@ This is the book of statistics for Business students.
 
 ## 4. Evaluation
 
-Mid 30%, Final 30%, Assignment 20%, Class 20%
+Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
