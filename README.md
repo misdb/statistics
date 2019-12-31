@@ -16,15 +16,6 @@ Statistics using R
 * Year Published: 2019
 * [http://www.yes24.com/Product/Goods/69291171?scode=029](http://www.yes24.com/Product/Goods/69291171?scode=029)
 
-
-
-Data Sets :
-
-* [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
-* [http://www.flatworldknowledge.com/sites/all/files/data3.xls  ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
-* [http://www.flatworldknowledge.com/sites/all/files/data7.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
-* [http://www.flatworldknowledge.com/sites/all/files/data10.xls ](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
-
 References
 
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
