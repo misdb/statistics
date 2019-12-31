@@ -42,3 +42,11 @@ This is the book of statistics for Business students.
 
 Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
+
+
+## 5. R Project
+
+{% embed url="https://r-project.org" %}
+
+
+
