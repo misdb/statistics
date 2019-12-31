@@ -15,6 +15,8 @@ Statistics using R
 * Publisher: Life and Power Press
 * Year Published: 2019
 
+![](.gitbook/assets/800x0.jpg)
+
 Data Sets :
 
 * [http://www.flatworldknowledge.com/sites/all/files/data1.xls](http://www.flatworldknowledge.com/sites/all/files/data1.xls%20)
