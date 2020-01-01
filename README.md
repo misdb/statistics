@@ -42,7 +42,11 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% file src=".gitbook/assets/1-r-2019-12.pdf" %}
 
+{% embed url="https://cran.r-project.org/doc/manuals/r-release/R-admin.html" %}
 
+
+
+#### 
 
 
 
