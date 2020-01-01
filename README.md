@@ -40,7 +40,7 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% embed url="https://r-project.org" %}
 
-
+{% file src=".gitbook/assets/1-r-2019-12.pdf" %}
 
 
 
