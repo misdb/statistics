@@ -40,7 +40,9 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% embed url="https://r-project.org" %}
 
-{% file src=".gitbook/assets/1-r-2019-12.pdf" %}
+{% file src=".gitbook/assets/1-r-2019-12.pdf" caption="Why R?" %}
+
+{% file src=".gitbook/assets/r\_download\_installation-3.6.2.pdf" caption="Download and Installation of R 3.6.2" %}
 
 {% embed url="https://cran.r-project.org/doc/manuals/r-release/R-admin.html" %}
 
