@@ -16,6 +16,8 @@ Statistics using R
 * Year Published: 2019
 * [http://www.yes24.com/Product/Goods/69291171?scode=029](http://www.yes24.com/Product/Goods/69291171?scode=029)
 
+{% file src=".gitbook/assets/tong-ji-xue-gai-lun.pdf" caption="统计学概论" %}
+
 **References**
 
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
