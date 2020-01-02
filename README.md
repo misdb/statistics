@@ -151,6 +151,8 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% file src=".gitbook/assets/why\_r.pdf" caption="Why R?" %}
 
+{% embed url="https://informationisbeautiful.net/visualizations/million-lines-of-code/" caption="Information is Beautiful." %}
+
 {% embed url="https://r-project.org" %}
 
 {% file src=".gitbook/assets/r\_download\_installation-3.6.2.pdf" caption="Download and Installation of R 3.6.2" %}
