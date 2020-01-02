@@ -28,9 +28,120 @@ This is the book of statistics for Business students.
 
 ## 3. Course Schedule
 
-
-
-## 4. Evaluation
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <p>&#xC8FC;</p>
+        <p>&#x5468;</p>
+      </th>
+      <th style="text-align:left">
+        <p>&#xAC15;&#xC758;&#xB0B4;&#xC6A9;</p>
+        <p>&#x6388;&#x8BFE;&#x5185;&#x5BB9;</p>
+      </th>
+      <th style="text-align:left">
+        <p>&#xAC15;&#xC758;&#xBC29;&#xBC95;</p>
+        <p>&#x6388;&#x8BFE;&#x65B9;&#x5F0F;</p>
+      </th>
+      <th style="text-align:left">
+        <p>&#xBE44;&#xACE0;</p>
+        <p>&#x5907;&#x6CE8;</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">&#xAC15;&#xC758;&#xC18C;&#xAC1C;</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">Chap 1. Introduction / R Installation</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">Chap. 2. Descriptive Statistics</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">Chap. 3. Basic Concepts of Probability</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left">Chap. 4. Discrete Random Variables</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">Chap. 5. Continuous Random Variables</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">Chap. 6. Sampling Distributions</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">Mid-Term Examination</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">Chap. 7. Estimation</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">Chap. 8. Testing Hypotheses</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">Chap. 9. Two-Sample Problems</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
+      <td style="text-align:left">Chap. 10. Correlation and Regression</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13</td>
+      <td style="text-align:left">Chap. 10. Correlation and Regression</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">Chap. 11. Chi-Square Tests and F-Tests</td>
+      <td style="text-align:left">&#xAC15;&#xC758; &#xBC0F; &#xC2E4;&#xC2B5;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">15</td>
+      <td style="text-align:left">Final Examincation</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>## 4. Evaluation
 
 Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
@@ -38,9 +149,9 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 ## 5. R Project
 
-{% embed url="https://r-project.org" %}
+{% file src=".gitbook/assets/why\_r.pdf" caption="Why R?" %}
 
-{% file src=".gitbook/assets/1-r-2019-12.pdf" caption="Why R?" %}
+{% embed url="https://r-project.org" %}
 
 {% file src=".gitbook/assets/r\_download\_installation-3.6.2.pdf" caption="Download and Installation of R 3.6.2" %}
 
