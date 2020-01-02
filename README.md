@@ -24,7 +24,7 @@ References
 
 ## 2. Course Introduction
 
-This is the book of statistics for Business students.
+This is for students studying business statistics.
 
 ## 3. Course Schedule
 
