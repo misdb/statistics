@@ -159,8 +159,6 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% file src=".gitbook/assets/r\_download\_installation-3.6.2.pdf" caption="Download and Installation of R 3.6.2" %}
 
-{% embed url="https://cran.r-project.org/doc/manuals/r-release/R-admin.html" %}
-
 
 
 #### 
