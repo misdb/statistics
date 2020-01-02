@@ -1,5 +1,7 @@
 # Chapter 1. Introduction
 
+{% file src="../.gitbook/assets/chapter\_01.pptx" caption="Chapter 01" %}
+
 ## 1.1 기본 정의 및 개념
 
 * A **population\(모집단\)** is any specific collection of objects of interest. A sample is any subset or subcollection of the population, including the case that the sample consists of the whole population, in which case it is termed a census.
