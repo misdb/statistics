@@ -16,7 +16,7 @@ Statistics using R
 * Year Published: 2019
 * [http://www.yes24.com/Product/Goods/69291171?scode=029](http://www.yes24.com/Product/Goods/69291171?scode=029)
 
-References
+**References**
 
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 * \*\*\*\*[**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)\*\*\*\*
