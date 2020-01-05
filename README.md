@@ -145,7 +145,7 @@ This is for students studying business statistics.
   </tbody>
 </table>## 4. Evaluation
 
-Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
+Mid \( 40  \)%, Final \( 40  \)%, Assignment \(  0 \)%, Class \( 20 \)%
 
 
 
@@ -159,11 +159,11 @@ Mid \(    \)%, Final \(     \)%, Assignment \(     \)%, Class \(    \)%
 
 {% file src=".gitbook/assets/r\_download\_installation-3.6.2.pdf" caption="Download and Installation of R 3.6.2" %}
 
+## 6. Using Rstat Package
 
+{% file src=".gitbook/assets/rstat \(1\).zip" caption="Rstat Package" %}
 
-#### 
-
-
+{% file src=".gitbook/assets/installation\_of\_package\_rstat.pdf" caption="Installation of Rstat Package" %}
 
 
 
