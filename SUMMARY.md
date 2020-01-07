@@ -7,7 +7,7 @@
 * [Chapter 2. Descriptive Statistics](ch_02_descriptive_statistics/README.md)
   * [2-1. Three Popular Data Displays](ch_02_descriptive_statistics/2-1.-three-popular-data-displays.md)
   * [2-1. Exercises](ch_02_descriptive_statistics/2-1_exercises.md)
-  * [2-2. Measures of Central Location](ch_02_descriptive_statistics/2-2.-measures-of-central-location.md)
+  * [2-2. Measures of Central Location \(Central Tendency\)](ch_02_descriptive_statistics/2-2.-measures-of-central-location.md)
   * [2-2. Exercises](ch_02_descriptive_statistics/2-2_exercises.md)
   * [2-3. Measures of Variability \(Statistical Dispersion\)](ch_02_descriptive_statistics/2-3.-measures-of-variability.md)
   * [2-3. Exercises](ch_02_descriptive_statistics/2-3_exercises.md)
