@@ -12,6 +12,58 @@
 69 92 68 77 80 70 85 88 85 96 93 75 76 82 100 53 70 70 82 85
 ```
 
+**\[ Solution \]**
+
+{% tabs %}
+{% tab title="R Source" %}
+```text
+data <- c(69, 92, 68, 77, 80, 70, 85, 88, 85, 96, 93, 
+          75, 76, 82, 100, 53, 70, 70, 82, 85)
+
+# 1. Stem and Leaf Diagram
+stem(data)
+
+# 2. Frequency Histogram
+hist(data,  xlim = c(50, 110),
+            ylim = c(0, 7),
+            breaks = seq(51, 101, by=10))
+
+# 3. Relative Frequecny Histogram
+require(lattice)
+require(openintro)
+
+histogram(data, type = "percent",
+          xlim = c(0, 110),
+          ylim = c(0, 35),
+          breaks = seq(51, 101, by=10))
+```
+{% endtab %}
+
+{% tab title="1. Stem and Leaf" %}
+```text
+> stem(data)
+## 
+##  The decimal point is 1 digit(s) to the right of the |
+##
+##   5 | 3
+##   6 | 89
+##   7 | 000567
+##   8 | 0225558
+##   9 | 236
+##  10 | 0
+
+```
+{% endtab %}
+
+{% tab title="2. frequency histogram" %}
+![](../.gitbook/assets/image%20%28192%29.png)
+{% endtab %}
+
+{% tab title="3. relative frequency histogram" %}
+![](../.gitbook/assets/image%20%28125%29.png)
+{% endtab %}
+{% endtabs %}
+
 **Ex 4.**  다음의 데이터를 기반으로 1\) stem and leaf diagram, 2\) frequency histogram 그리고 3\) relative frequency histogram 을 작성하라. 히스토그램의 구간은 6.0-6.9, 7.0-7.9, ... 등으로 정한다.
 
 ```text
@@ -220,7 +272,7 @@ axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
 {% endtab %}
 
 {% tab title="Result Plot" %}
-![](../.gitbook/assets/image%20%28218%29.png)
+![](../.gitbook/assets/image%20%28222%29.png)
 {% endtab %}
 {% endtabs %}
 
