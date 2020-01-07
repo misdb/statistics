@@ -9,7 +9,7 @@
   * [2-1. Exercises](ch_02_descriptive_statistics/2-1_exercises.md)
   * [2-2. Measures of Central Location](ch_02_descriptive_statistics/2-2.-measures-of-central-location.md)
   * [2-2. Exercises](ch_02_descriptive_statistics/2-2_exercises.md)
-  * [2-3. Measures of Variability](ch_02_descriptive_statistics/2-3.-measures-of-variability.md)
+  * [2-3. Measures of Variability \(Statistical Dispersion\)](ch_02_descriptive_statistics/2-3.-measures-of-variability.md)
   * [2-3. Exercises](ch_02_descriptive_statistics/2-3_exercises.md)
   * [2-4. Relative Position of Data](ch_02_descriptive_statistics/2-4.-relative-position-of-data.md)
   * [2-4. Exercises](ch_02_descriptive_statistics/2-4.-exercises.md)
