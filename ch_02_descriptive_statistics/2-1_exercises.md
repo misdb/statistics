@@ -33,7 +33,7 @@ require(lattice)
 require(openintro)
 
 histogram(data, type = "percent",
-          xlim = c(0, 110),
+          xlim = c(50, 110),
           ylim = c(0, 35),
           breaks = seq(51, 101, by=10))
 ```
@@ -56,11 +56,11 @@ histogram(data, type = "percent",
 {% endtab %}
 
 {% tab title="2. frequency histogram" %}
-![](../.gitbook/assets/image%20%28192%29.png)
+![](../.gitbook/assets/image%20%28193%29.png)
 {% endtab %}
 
 {% tab title="3. relative frequency histogram" %}
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -284,7 +284,7 @@ axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
 {% endtab %}
 
 {% tab title="Result Plot" %}
-![](../.gitbook/assets/image%20%28222%29.png)
+![](../.gitbook/assets/image%20%28223%29.png)
 {% endtab %}
 {% endtabs %}
 
