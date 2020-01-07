@@ -73,14 +73,26 @@ histogram(data, type = "percent",
 
 **Ex 5.**  하나의 데이터 세트가 10개의 관측치를 가지고 있다. x 값과 빈도 f의 값이 다음과 같이 도수 분포표에 요약되어 있다. frequency histogram과 relative frequency table을 작성하라.
 
+```text
+x  −1  0  1  2 
+f   3  4  2  1
+```
+
 **Ex 6.**  하나의 데이터 세트가 20개의 관측치를 가지고 있다. 값의 빈도가 0인 것은 missing value이다. a 값을 찾아내고, 데이터 세트의 frequency histogram과 relative frequency table을 작성하라.
 
-**Ex 7.**  
+```text
+x  −1  0  1  2 
+f   3  a  2  1
+```
 
-1. ```text
-   x   -1   0   1   2
-   f    3   a   2   1
-   ```
+**Ex 7.**  A data set has the following frequency distribution table:
+
+* ```text
+  x   -1   0   1   2
+  f    3   a   2   1
+  ```
+
+ The number _a_ is unknown. Can you construct a frequency histogram? If so, construct it. If not, say why not.
 
 **Ex 8.** 데이터 세트가 다음과 같은 도수분포표를 가지고 있다. a 값은 알려져 있지 않다. frequency histogram을 작성할 수 있는가? 그렇다면 작성하라. 그렇지 않다면 왜 그런지 설명하라.
 
