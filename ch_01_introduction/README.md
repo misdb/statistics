@@ -2,9 +2,9 @@
 
 {% file src="../.gitbook/assets/chapter\_01.pptx" caption="Chapter 01 \(Korean\)" %}
 
-## 1.1 기본 정의 및 개념
-
 {% file src="../.gitbook/assets/chapter\_01\_.pdf" caption="Chapter 01\(Chinese\)" %}
+
+## 1.1 기본 정의 및 개념
 
 * A **population\(모집단\)** is any specific collection of objects of interest. A sample is any subset or subcollection of the population, including the case that the sample consists of the whole population, in which case it is termed a census.
 * A **measurement\(측정치\)** is a number or attribute computed for each member of a population or of a sample. The measurements of sample elements are collectively called the sample data.
