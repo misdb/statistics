@@ -163,9 +163,9 @@ Mid \( 40  \)%, Final \( 40  \)%, Assignment \(  0 \)%, Class \( 20 \)%
 
 {% file src=".gitbook/assets/rstat \(2\).zip" caption="Rstat Package" %}
 
-{% file src=".gitbook/assets/installation\_of\_package\_rstat.pdf" caption="Installation of Rstat Package \(Korean\)" %}
+{% file src=".gitbook/assets/install\_package\_rstat.pdf" caption="Installation of Rstat Package \(Korean\)" %}
 
-{% file src=".gitbook/assets/install\_package\_rstat \(1\).docx" caption="Install\_Rstat \(Korean\)" %}
+{% file src=".gitbook/assets/install\_package\_rstat-chinese \(2\).pdf" caption="Installation of Rstat Package \(Chinese\)" %}
 
 
 
