@@ -96,7 +96,7 @@ This is for students studying business statistics.
     </tr>
     <tr>
       <td style="text-align:left">8</td>
-      <td style="text-align:left">Mid-Term Examination</td>
+      <td style="text-align:left">Mid-Term Examination (<b>1/23</b> or <b>2/11</b>)</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
@@ -138,7 +138,7 @@ This is for students studying business statistics.
     </tr>
     <tr>
       <td style="text-align:left">15</td>
-      <td style="text-align:left">Final Examincation</td>
+      <td style="text-align:left">Final Examination (<b>2/18</b>)</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
