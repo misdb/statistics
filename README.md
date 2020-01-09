@@ -143,15 +143,17 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>![](.gitbook/assets/image%20%2843%29.png)
+</table>## 4. Time Table
 
-## 4. Evaluation
+![](.gitbook/assets/image%20%2893%29.png)
+
+## 5. Evaluation
 
 Mid \( 40  \)%, Final \( 40  \)%, Assignment \(  0 \)%, Class \( 20 \)%
 
 
 
-## 5. R Project
+## 6. R Project
 
 {% file src=".gitbook/assets/why\_r.pdf" caption="Why R?" %}
 
