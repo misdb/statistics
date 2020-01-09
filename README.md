@@ -143,7 +143,7 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>## 4. Time Table
+</table>## 4. Time Table \(2019-Winter\)
 
 ![](.gitbook/assets/image%20%2893%29.png)
 
