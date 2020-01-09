@@ -143,7 +143,9 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>## 4. Evaluation
+</table>
+
+## 4. Evaluation
 
 Mid \( 40  \)%, Final \( 40  \)%, Assignment \(  0 \)%, Class \( 20 \)%
 
