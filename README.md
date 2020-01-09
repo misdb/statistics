@@ -143,7 +143,7 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>
+</table>![](.gitbook/assets/image%20%2843%29.png)
 
 ## 4. Evaluation
 

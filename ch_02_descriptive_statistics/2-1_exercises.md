@@ -56,11 +56,11 @@ histogram(data, type = "percent",
 {% endtab %}
 
 {% tab title="2. frequency histogram" %}
-![](../.gitbook/assets/image%20%28194%29.png)
+![](../.gitbook/assets/image%20%28195%29.png)
 {% endtab %}
 
 {% tab title="3. relative frequency histogram" %}
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -284,7 +284,7 @@ axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
 {% endtab %}
 
 {% tab title="Result Plot" %}
-![](../.gitbook/assets/image%20%28224%29.png)
+![](../.gitbook/assets/image%20%28225%29.png)
 {% endtab %}
 {% endtabs %}
 
