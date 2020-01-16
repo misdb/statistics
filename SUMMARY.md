@@ -35,7 +35,7 @@
   * [4-5. Multinomial Distribution \(\*\)](chapter-4.-discrete-random-variables/4-5.-multinomial-distribution.md)
   * [4-6. Hypergeometric Distribution](chapter-4.-discrete-random-variables/4-6.-hypergeometric-distribution.md)
   * [4-6. Exercises](chapter-4.-discrete-random-variables/4-6.-exercises-1.md)
-  * [4-7. Geometric Distribution \(\*\)](chapter-4.-discrete-random-variables/4-7.-geometric-distribution.md)
+  * [4-7. Geometric Distribution](chapter-4.-discrete-random-variables/4-7.-geometric-distribution.md)
   * [4-8. Negative Binomial Distribution \(\*\)](chapter-4.-discrete-random-variables/4-8.-negative-binomial-distribution.md)
   * [4-9. Negative Hypergeometric Distribution \(\*\)](chapter-4.-discrete-random-variables/4-9.-negative-hypergeometric-distribution.md)
   * [4-9. Exercises](chapter-4.-discrete-random-variables/4-9.-exercises.md)
