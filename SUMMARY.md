@@ -50,7 +50,7 @@
   * [5-3. Exercises](chapter-5.-continuous-random-variables/5-3.-exercises.md)
   * [5-4. Areas of Tails of Distributions](chapter-5.-continuous-random-variables/5-4.-areas-of-tails-of-distributions.md)
   * [5-4. Exercises](chapter-5.-continuous-random-variables/5-4.-exercises.md)
-  * [5-5. Gamma Distribution](chapter-5.-continuous-random-variables/5-5.-gamma-distribution.md)
+  * [5-5. Gamma Distribution \(\*\)](chapter-5.-continuous-random-variables/5-5.-gamma-distribution.md)
   * [5-6. Exponential Distribution](chapter-5.-continuous-random-variables/5-6.-exponential-distribution.md)
   * [5-7. Beta Distribution \(\*\)](chapter-5.-continuous-random-variables/5-7.-beta-distribution.md)
   * [5-8. Weibull Distribution \(\*\)](chapter-5.-continuous-random-variables/5-8.-weibull-distribution.md)
