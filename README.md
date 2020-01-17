@@ -143,9 +143,9 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>* **Sample of Mid-Term Exam**
+</table>* **Sample of Mid-Term Examination**
 
-{% file src=".gitbook/assets/undefined \(1\).txt" caption="Sample of Mid-Term \(Korean\)" %}
+{% file src=".gitbook/assets/undefined \(1\).txt" caption="Sample of Mid-Term Exam \(Korean\)" %}
 
 {% file src=".gitbook/assets/solution-example.zip" caption="Solution of Sample Mid-Term \(R Source\)" %}
 
