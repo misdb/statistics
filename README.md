@@ -147,6 +147,8 @@ This is for students studying business statistics.
 
 {% file src=".gitbook/assets/undefined \(1\).txt" caption="Mid-Term \(Korean\)" %}
 
+
+
 {% file src=".gitbook/assets/solution-example.zip" caption="Solution of Mid-Term\(R Source\)" %}
 
 ## 4. Time Table \(2019-Winter\)
