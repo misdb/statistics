@@ -143,13 +143,7 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>* **Sample of Mid-Term Examination**
-
-{% file src=".gitbook/assets/undefined \(1\).txt" caption="Sample of Mid-Term Exam \(Korean\)" %}
-
-{% file src=".gitbook/assets/solution-example.zip" caption="Solution of Sample Mid-Term \(R Source\)" %}
-
-## 4. Time Table \(2019-Winter\)
+</table>## 4. Time Table \(2019-Winter\)
 
 ![](.gitbook/assets/image%20%2893%29.png)
 
