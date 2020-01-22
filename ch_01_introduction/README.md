@@ -1,8 +1,8 @@
 # Chapter 1. Introduction
 
-{% file src="../.gitbook/assets/chapter\_01.pptx" caption="Chapter 01 \(Korean\)" %}
+{% file src="../.gitbook/assets/chapter\_01\_korean.pdf" caption="Chapter 1 \(Korean\)" %}
 
-{% file src="../.gitbook/assets/chapter\_01\_.pdf" caption="Chapter 01\(Chinese\)" %}
+{% file src="../.gitbook/assets/chapter\_01\_chinese.pdf" caption="Chapter 1 \(Chinese\)" %}
 
 ## 1.1 기본 정의 및 개념
 
