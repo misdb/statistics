@@ -284,7 +284,7 @@ axis(1, at=axTicks(side=1), labels=abs(axTicks(side=1)))
 {% endtab %}
 
 {% tab title="Result Plot" %}
-![](../.gitbook/assets/image%20%28232%29.png)
+![](../.gitbook/assets/image%20%28233%29.png)
 {% endtab %}
 {% endtabs %}
 
