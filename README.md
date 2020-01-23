@@ -145,7 +145,11 @@ This is for students studying business statistics.
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>## 4. Time Table \(2019-Winter\)
+</table>{% file src=".gitbook/assets/china.docx" caption="Answer Sheet" %}
+
+{% file src=".gitbook/assets/solution.zip" caption="R Source \(Mid Term Exam\)" %}
+
+## 4. Time Table \(2019-Winter\)
 
 ![](.gitbook/assets/image%20%2893%29.png)
 
