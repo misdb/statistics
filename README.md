@@ -147,7 +147,7 @@ This is for students studying business statistics.
   </tbody>
 </table>## 4. Time Table \(2019-Winter\)
 
-![](.gitbook/assets/image%20%2893%29.png)
+![](.gitbook/assets/image%20%2894%29.png)
 
 ## 5. Evaluation
 
